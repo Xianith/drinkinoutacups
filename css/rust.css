@@ -1,0 +1,170 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+@font-face {
+    font-family: logo;
+    src: url(Capture_it.ttf);
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../img/rust/img_parallax.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("../img/rust/img_parallax2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../img/rust/img_parallax3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  font-family: "logo";
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  background-color: #cc3f2b;
+  padding: 18px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+h4 {
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  font: 13px "Lato", sans-serif;
+  color: #111;
+}
+
+.scroll-indicator{
+  font-size: 50px;
+  color: #cc3f2b;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+/*==========Discord Button*/
+
+.btn-discord {
+  color: #5671AC;
+  /*background-color: #5671AC;*/
+  border-color: #5671AC;
+}
+
+.btn-discord:hover {
+  color: #fff;
+  background-color: #6F90D8;
+  border-color: #5D88E6;
+}
+
+.btn-discord:active {
+  color: #fff;
+  background-color: #5671AC;
+  border-color: #364F86;
+}
+
+.btn-discord:focus {
+  color: #fff;
+  background-color: #4A6090;
+  border-color: #364F86;
+}
+
+/*===========Map Button*/
+
+.btn-map {
+  color: #2ca757;
+  /*background-color: #5671AC;*/
+  border-color: #2ca757;
+}
+
+.btn-map:hover {
+  color: #fff;
+  background-color: #27b359;
+  border-color: #1b6736;
+}
+
+.btn-map:active {
+  color: #fff;
+  background-color: #2ca757;
+  border-color: #1b6736;
+}
+
+.btn-map:focus {
+  color: #fff;
+  background-color: #238646;
+  border-color: #1b6736;
+}
+
+
+.btn-vote {
+  color: #e05d2b;
+  /*background-color: #5671AC;*/
+  border-color: #e05d2b;
+}
+
+.btn-vote:hover {
+  color: #fff;
+  background-color: #f96c37;
+  border-color: #b95129;
+}
+
+.btn-vote:active {
+  color: #fff;
+  background-color: #c55428;
+  border-color: #1b6736;
+}
+
+.btn-vote:focus {
+  color: #fff;
+  background-color: #e05d2b;
+  border-color: #1b6736;
+}
+
+.connect-block {
+	display: inline-block;
+	margin: 0;
+	line-height: 1px;
+	padding: 2px 0 15px;
+	font-family: monospace;
+}
+
+.connect-block b{
+	background-color: gainsboro;
+	padding: 5px;
+	border-radius: 7px;
+}

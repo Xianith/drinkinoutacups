@@ -24,10 +24,10 @@
   <!-- Contains custom Css and Jumbotron CSS -->
     <link href="css/doc.css" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="java/game.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
 
-    <!-- Discord Java -->
-    <script type="text/javascript" src="java/discord.min.js"></script>
+    <!-- Discord Js -->
+    <script type="text/javascript" src="js/discord.min.js"></script>
     <script type="text/javascript">
       discordWidget.init({
         serverId: '105404204360667136',
@@ -55,25 +55,34 @@
     <h3>Drinkin Outa Cups</h3>
   </header>
 
+  <!-- <img class="logo" src="img/doc.png"></img> -->
+
   <div class="container">
 
-    <div class="jumbotron">
-      <h1>Hey there!</h1>
-      <p class="lead">We have fun playing vidya games...</p>
+    <div class="jumbotron" class="visibledesktop">
+      <h1>Hey there..</h1>
+      <p class="lead">We play video games!</p>
       <p><a class="btn btn-lg btn-success" href="https://discord.gg/0aVDKqSEos1SAKGd" role="button">Join us</a></p>
     </div>
 
+<!--     <div class="visibledevice">
+      <h1>Hey there..</h1>
+      <p class="lead">We play video games!</p>
+      <p><a class="btn btn-lg btn-success" href="https://discord.gg/0aVDKqSEos1SAKGd" role="button">Join us</a></p>
+    </div> -->
+
     <div class="row marketing">
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 
       	<h4>Online Members</h4>
       	<div class="discord-widget"></div>
       </div>
 
-      <div class="col-lg-6">
-        <h4>Communities</h4>
-        <a class="nav-images" href="http://steamcommunity.com/groups/drinkinoutacups"><img src="img/steam.png" height="35px" padding-right="5px"></img></a>
-        <a class="nav-images" href="https://discord.gg/0aVDKqSEos1SAKGd"><img src="img/discord.png" height="35px"></img></a>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <h4>Connections</h4>
+        <a class="nav-images" href="http://steamcommunity.com/groups/drinkinoutacups"><img title="Steam Group" src="img/steam.png" height="35px" padding-right="5px"></img></a>
+        <a class="nav-images" href="https://discord.gg/0aVDKqSEos1SAKGd"><img title="Discord" src="img/discord.png" height="35px"></img></a>
+        <a class="nav-images" href="http://drinkinoutacups.com/rust"><img alt="Rust:iO Map Shortcut" title="Rust:iO Map" src="img/rust.png" height="35px"></img></a>
       </div>
 
 <!--       <div class="col-lg-12 top-games">

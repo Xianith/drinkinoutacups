@@ -18,6 +18,23 @@ header h3 {
 	text-align: center;
 }
 
+.logo {
+  height: 80px;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 4.3em;
+    /*left: 10em;*/
+}
+
+/*.visibledevice {display:none;}
+.visibledesktop {display:display;}
+
+@media (max-width : 320px) {
+.visibledevice {display:block;}
+.visibledesktop {display:none;}*/
+
+
 @media screen and (max-width: 768px) {
 	header h3 {
 		font-size: 3em;
