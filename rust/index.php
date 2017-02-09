@@ -6,12 +6,177 @@
 
 <title>D O C - Rust</title>
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
 <link href="../bs/css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/rust.css" rel="stylesheet">
+<script src="../js/rust.js"></script>
+
+<!-- Discord Js -->
+<script type="text/javascript" src="../js/rust.discord.min.js"></script>
+<script type="text/javascript">
+  discordWidget.init({
+    serverId: '105404204360667136',
+    title: '',
+    join: false,
+    alphabetical: false,
+    theme: 'none',
+    hideChannels: ['AFK', 'General', 'Room'],
+    showAllUsers: true,
+    allUsersDefaultState: true
+  });
+  discordWidget.render();
+</script>
+
 
 </head>
 
 <body>
+
+<!-- Moadls for extensive plugin view -->
+
+<div id="betterLoot" class="modal">
+  <span class="close cursor">&times;</span>
+  <div class="modal-content">
+
+    <div class="betterLoot">
+      <div class="slideTitle">BetterLoot - Config snippet</div>
+
+      <div class="codeBlock">
+      <pre><code>
+      {
+        "ItemListBarrels": {
+          "propanetank": 2,
+          "riflebody": 2,
+          "roadsigns": 5,
+          "rope": 5,
+          "semibody": 2,
+          "sewingkit": 2,
+          "sheetmetal": 5
+        },
+        "ItemListCrates": {
+          "riflebody": 5,
+          "roadsigns": 5,
+          "rope": 5,
+          "semibody": 5,
+          "sewingkit": 5,
+          "sheetmetal": 5,
+          "smallwaterbottle": 1,
+          "smgbody": 5,
+          "metalspring": 5
+        }
+      }
+      </code></pre>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="gatherManager" class="modal">
+  <span class="close cursor">&times;</span>
+  <div class="modal-content">
+
+    <div class="gatherManager">
+      <div class="slideTitle">GatherManager - Config snippet</div>
+
+      <div class="codeBlock">
+      <pre><code>
+      "Options": {
+        "GatherDispenserModifiers": {},
+        "GatherResourceModifiers": {
+          "*": 10.0,
+          "Cloth": 10.0,
+          "Stones": 10.0,
+          "Sulfur Ore": 10.0,
+          "Wood": 10.0
+        },
+        "MiningQuarryResourceTickRate": 5.0,
+        "PickupResourceModifiers": {
+          "*": 10.0
+        },
+        "QuarryResourceModifiers": {
+          "Stones": 25.0,
+          "Sulfur Ore": 25.0,
+          "Metal Ore": 15.0
+        },
+        "SurveyResourceModifiers": {}
+      </code></pre>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="quickSmelt" class="modal">
+  <span class="close cursor">&times;</span>
+  <div class="modal-content">
+
+    <div class="quickSmelt">
+      <div class="slideTitle">QuickSmelt - Config snippet</div>
+
+      <div class="codeBlock">
+      <pre><code>
+      {
+        "ByproductModifier": 25.0,
+        "ByproductPercent": 50,
+        "CookedModifier": 10.0,
+        "CookedPercent": 100,
+        "FuelUsageModifier": 1,
+        "OvercookMeat": false,
+        "UsePermissions": false
+      }
+      </code></pre>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="stackSize" class="modal">
+  <span class="close cursor">&times;</span>
+  <div class="modal-content">
+
+    <div class="stackSize">
+      <div class="slideTitle">StackSizeController - Config snippet</div>
+
+      <div class="codeBlock">
+      <pre><code>
+      ...
+      "Mushroom": 50,
+      "Muzzle Boost": 1,
+      "Muzzle Brake": 1,
+      "Note": 250000,
+      "One Sided Town Sign Post": 250000,
+      "Pants": 1,
+      "Paper": 250000,
+      "Paper Map": 250000,
+      "Pick Axe": 1,
+      "Pistol Bullet": 250000,
+      "Pookie Bear": 250000,
+      ...
+
+      ...
+      "Sticks": 250000,
+      "Stone Barricade": 10,
+      "Stone Hatchet": 1,
+      "Stone Pick Axe": 1,
+      "Stone Spear": 1,
+      "Stones": 250000,
+      "Sulfur": 250000,
+      "Sulfur Ore": 250000,
+      ...
+      </code></pre>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- End of modals -->
 
 <div class="bgimg-1">
   <div class="caption">
@@ -54,6 +219,7 @@
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
        <a href="#betterloot" class="list-group-item">Removed useless items</a>
        <a href="#autopurge" class="list-group-item">Purge every 6 hours</a>
+       <li class="list-group-item">Wipes only when forced</li>
      </ul>
    </div>
 
@@ -63,9 +229,10 @@
   <hr>
 
   <div class="button-land" role="group" style="width: 25%; margin:auto">
-    <a href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
-    <a href="https://discord.gg/0aVDKqSEos1SAKGd" class="btn btn-lg btn-discord btn-block">Discord</a>
-    <a href="https://rust-servers.net/server/108636/vote/" class="btn btn-lg btn-vote btn-block">Vote</a>
+    <a target="_blank" href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
+    <a target="_blank" href="https://discord.gg/0aVDKqSEos1SAKGd" class="btn btn-lg btn-discord btn-block">Discord</a>
+    <a target="_blank" href="https://rust-servers.net/server/108636/vote/" class="btn btn-lg btn-vote btn-block">Vote</a>
+    <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Donate</a>
   </div>  
 
 </div>
@@ -81,16 +248,21 @@
   <p>We'd love to hear what you think of the server so far! Check out the survey below and give us all the feedback you can.
   
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
-  	  <a href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Start of Server Survey</a>
+  	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Start of Server Survey</a>
   	</div> 
 
-  <hr>
 
+  <hr>
+  <h4>Start up promo!</h4>
+  <p>Refer friends to our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
+
+  <p>Get in touch with an active admin for your promotion code and additional details!</p>
+
+  <hr>
   <h4>Admins On Duty</h4>
 
   <div style="text-decoration: bold;font-family: 'logo'; letter-spacing: 5px">
-  <p>Xianith</p>
-  <p>HeadoftheINS</p>
+  <div class="discord-widget"></div>
   </div>
 
   </div>
@@ -114,75 +286,109 @@
         <div class="col-sm-4">
         <ul class="list-group">
           <!-- <img src="../img/rust/pvp.png" style="text-align:center; height: 115px"> -->
-          <a href="http://oxidemod.org/plugins/airstrike.1489/" class="list-group-item list-group-item-warning">AirStrike</a>
-          <a href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
-          <a href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item list-group-item-info">AutoPurge</a>
-          <a href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
-          <a href="http://oxidemod.org/plugins/betterloot.828/" name="betterloot" class="list-group-item list-group-item-info">BetterLoot<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
-          <li class="list-group-item"><a href="" class="btn btn-sm btn-default">Config File</a>
-          <a href="" class="btn btn-sm btn-default">Plugin Link</a></li>
-          <a href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
-          <a href="http://oxidemod.org/plugins/rust-io-clans.842/" class="list-group-item">Clans</a>
-          <a href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item list-group-item-info">CraftingController</a>
-          <a href="http://oxidemod.org/plugins/easyvote.2102/" class="list-group-item">EasyVote</a>
-          <a href="http://oxidemod.org/plugins/economics.717/" class="list-group-item">Economics</a>
-          <a href="http://oxidemod.org/plugins/explodingbarrels.1902/" class="list-group-item list-group-item-info">ExplodingBarrels</a> 
-          <a href="http://oxidemod.org/plugins/fancydrop.1934/" name="fancydrop" class="list-group-item list-group-item-info">FandyDrop</a>
-          <a href="http://oxidemod.org/plugins/flippable-turrets.2055/" class="list-group-item">FlippableTurrets</a>
-          <a href="http://oxidemod.org/plugins/rust-io-friendlyfire.840/" class="list-group-item">FriendlyFire</a>
-          <a href="http://oxidemod.org/plugins/friends-api.686/" class="list-group-item">Friends</a>
-          <a href="http://oxidemod.org/plugins/gather-manager.675/" name="gathermanager" class="list-group-item list-group-item-info">GatherManager<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+          <a target="_blank" href="http://oxidemod.org/plugins/airstrike.1489/" class="list-group-item list-group-item-warning">AirStrike</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item">AutoGrade</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item list-group-item-info">AutoPurge</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/betterchat-mute.2272/" class="list-group-item">BetterChatMute</a>
+          <div class="betterLoot">
+	          <a href="" onclick="return false;" name="betterloot" class="infoShwBtn list-group-item list-group-item-info">BetterLoot<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+	            <li class="list-group-item" style="display: none;">
+	              <a class="btn btn-sm btn-default modalOpener">Config File</a>
+	              <a target="_blank" href="http://oxidemod.org/plugins/betterloot.828/" class="btn btn-sm btn-default">Plugin Link</a>
+	            </li>
+	      </div>
+          <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/rust-io-clans.842/" class="list-group-item">Clans</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpsDuration</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item list-group-item-info">CraftingController</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/easyvote.2102/" class="list-group-item">EasyVote</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/economics.717/" class="list-group-item">Economics</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/enhanced-hammer.1439/" class="list-group-item">EnhancedHammer</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/explodingbarrels.1902/" class="list-group-item list-group-item-info">ExplodingBarrels</a> 
+          <a target="_blank" href="http://oxidemod.org/plugins/fancydrop.1934/" name="fancydrop" class="list-group-item list-group-item-info">FancyDrop</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/flippable-turrets.2055/" class="list-group-item">FlippableTurrets</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/rust-io-friendlyfire.840/" class="list-group-item">FriendlyFire</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/friends-api.686/" class="list-group-item">Friends</a>
         </ul>
        </div>
        <div class="col-sm-4">
         <ul class="list-group">
-        <a href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop</a>
-        <a href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item list-group-item-info">HotKeys</a>
-        <a href="http://oxidemod.org/plugins/imagelibrary.2193/" class="list-group-item">ImageLibrary</a>
-        <a href="http://oxidemod.org/plugins/infopanel.1356/" class="list-group-item list-group-item-info">InfoPanel</a>
-        <a href="http://oxidemod.org/plugins/item-skin-randomizer.1328/" class="list-group-item list-group-item-warning">ItemSkinRandomizer</a>
-        <a href="http://oxidemod.org/threads/protocol-kick-information.19972/" class="list-group-item">KickInfo</a>
-        <a href="http://oxidemod.org/plugins/kill-feed.1433/" class="list-group-item">KillFeed</a>
-        <a href="http://oxidemod.org/plugins/kits.668/" class="list-group-item list-group-item-warning">Kits</a>
-        <a href="http://oxidemod.org/plugins/magazin-booster.1962/" class="list-group-item list-group-item-warning">MagazineBooster</a>
-        <a href="http://oxidemod.org/plugins/metabolism.680/" class="list-group-item">Metabolism</a>
-        <a href="http://oxidemod.org/plugins/moneytime.836/" name="moneytime" class="list-group-item">MoneyTime</a>
-        <a href="http://oxidemod.org/plugins/nightlantern.1182/" class="list-group-item">NightLantern</a>
-        <a href="http://oxidemod.org/plugins/nodecay.1160/" name="nodecay" class="list-group-item list-group-item-info">NoDecay</a>
-        <a href="http://oxidemod.org/plugins/noescape.1394/" class="list-group-item">NoEscape</a>
-        <a href="http://oxidemod.org/plugins/n-teleportation.1832/" class="list-group-item list-group-item-warning">NTeleportation</a>
-        <a href="http://oxidemod.org/plugins/player-challenges.1442/" class="list-group-item">PlayerChallenges</a>
+	      <div class="gatherManager">
+	          <a href="" onclick="return false;" name="gathermanager" class="infoShwBtn list-group-item list-group-item-info">GatherManager<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+	            <li class="list-group-item" style="display: none;">
+	              <a class="btn btn-sm btn-default modalOpener">Config File</a>
+	              <a target="_blank" href="http://oxidemod.org/plugins/gather-manager.675/" class="btn btn-sm btn-default">Plugin Link</a>
+	            </li>
+	      </div>
+        <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item list-group-item-info">HotKeys</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/imagelibrary.2193/" class="list-group-item">ImageLibrary</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/infopanel.1356/" class="list-group-item list-group-item-info">InfoPanel</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/inventory-viewer.871/" class="list-group-item">InventoryViewer</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/item-skin-randomizer.1328/" class="list-group-item list-group-item-warning">ItemSkinRandomizer</a>
+        <a target="_blank" href="http://oxidemod.org/threads/protocol-kick-information.19972/" class="list-group-item">KickInfo</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/kill-feed.1433/" class="list-group-item">KillFeed</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/kits.668/" class="list-group-item list-group-item-warning">Kits</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/metabolism.680/" class="list-group-item">Metabolism</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/moneytime.836/" name="moneytime" class="list-group-item">MoneyTime</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/nightlantern.1182/" class="list-group-item">NightLantern</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/nodecay.1160/" name="nodecay" class="list-group-item list-group-item-info">NoDecay</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/noescape.1394/" class="list-group-item">NoEscape</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/n-teleportation.1832/" class="list-group-item list-group-item-warning">NTeleportation</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/player-challenges.1442/" class="list-group-item">PlayerChallenges</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/private-messaging.659/" class="list-group-item">PrivateMessage</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/promocodes.1471/" class="list-group-item">PromoCode</a>
         </ul>
        </div>
        <div class="col-sm-4">
         <ul class="list-group">
-        <a href="http://oxidemod.org/plugins/quicksmelt.1067/" name="quicksmelt" class="list-group-item list-group-item-info">QuickSmelt<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
-        <a href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item">RemoverTool</a>
-        <a href="http://oxidemod.org/plugins/robbery.736/" class="list-group-item">Robbery</a>
-        <a href="http://oxidemod.org/plugins/rusted-store.2134/" class="list-group-item">RustedStore</a>
-        <a href="http://oxidemod.org/extensions/rust-io.768/" class="list-group-item">RustIO</a>
-        <a href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
-        <a href="http://oxidemod.org/plugins/shareddoors.2108/" class="list-group-item">SharedDoors</a>
-        <a href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
-        <a href="http://oxidemod.org/plugins/stack-size-controller.1185/" name="stacksize" class="list-group-item list-group-item-info">StackSizeController<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
-        <a href="http://oxidemod.org/threads/timed-execute.18395/" class="list-group-item">TimedExectue</a>
-        <a href="http://oxidemod.org/plugins/timed-permissions.1926/" class="list-group-item list-group-item-warning">TimedPermissions</a>
-        <a href="http://oxidemod.org/plugins/trade.1242/" class="list-group-item">Trade</a>
-        <a href="http://oxidemod.org/plugins/universalui.2226/" class="list-group-item list-group-item-info">UniversalUI</a>
-        <a href="http://oxidemod.org/plugins/wakeup.1487/" class="list-group-item">WakeUp</a>
-        <a href="http://oxidemod.org/plugins/weapons-on-back.2188/" class="list-group-item">WeaponsOnBack</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/protocol-kick-information.2041/" class="list-group-item">ProtocolKickInfo</a>
+        <div class="quickSmelt">
+            <a href="" onclick="return false;" name="quicksmelt" class="infoShwBtn list-group-item list-group-item-info">QuickSmelt<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+              <li class="list-group-item" style="display: none;">
+                <a class="btn btn-sm btn-default modalOpener">Config File</a>
+                <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default">Plugin Link</a>
+              </li>
+        </div>
+        <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item">RemoverTool</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/robbery.736/" class="list-group-item">Robbery</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/rusted-store.2134/" class="list-group-item">RustedStore</a>
+        <a target="_blank" href="http://oxidemod.org/extensions/rust-io.768/" class="list-group-item">RustIO</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/shareddoors.2108/" class="list-group-item">SharedDoors</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/sleeper-animal-protection.1959/" class="list-group-item">SleeperAnimalProtection</a>
+        <div class="stackSize">
+            <a href="" onclick="return false;" name="stacksize" class="infoShwBtn list-group-item list-group-item-info">StackSizeController<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+              <li class="list-group-item" style="display: none;">
+                <a class="btn btn-sm btn-default modalOpener">Config File</a>
+                <a target="_blank" href="http://oxidemod.org/plugins/stack-size-controller.1185/" class="btn btn-sm btn-default">Plugin Link</a>
+              </li>
+        </div>
+        <a target="_blank" href="http://oxidemod.org/threads/timed-execute.18395/" class="list-group-item">TimedExectue</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/timed-permissions.1926/" class="list-group-item list-group-item-warning">TimedPermissions</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/trade.1242/" class="list-group-item">Trade</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/turbogather.2221/" class="list-group-item">TurboGather</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/universalui.2226/" class="list-group-item list-group-item-info">UniversalUI</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/vanish.1420/" class="list-group-item">Vanish</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/weapons-on-back.2188/" class="list-group-item">WeaponsOnBack</a>
         </ul>
        </div>
       </div>
 
-      <div style="font-size: 12px">
+      <div style="font-size: 12px; line-height: 3px">
+      	<p><span class="glyphicon glyphicon-info-sign"></span> icon indicates that we provide a snippet of our config.</p>
         <p>Plugins <b style="color: #8a6d3b">colored like this</b> can be obtained via donations / Gold shop / daily or they have limits.</p>
-        <p>Plugins <b style="color: #31708f">colored like this</b> have been modifed for this server.</p>
+        <p>Plugins <b style="color: #31708f">colored like this</b> have been heavily modifed for this server.</p>
+        <p><b style="font-size: 10px">All plugins use custom settings</b></p>
       </div>
 
       <hr>
 
-      <p style="text-align:center;">Created by <a href="">Xianith</a></p>
+      <p style="text-align:center;">Created by <a target="_blank" href="">Xianith</a></p>
 
   </div>
 </div>

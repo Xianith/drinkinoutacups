@@ -155,6 +155,31 @@ h4 {
   border-color: #1b6736;
 }
 
+
+.btn-donate {
+  color: #2bd7e0;
+  /*background-color: #5671AC;*/
+  border-color: #2bd7e0;
+}
+
+.btn-donate:hover {
+  color: #fff;
+  background-color: #2bd7e0;
+  border-color: #25aab1;
+}
+
+.btn-donate:active {
+  color: #fff;
+  background-color: #23afb7;
+  border-color: #2bd7e0;
+}
+
+.btn-donate:focus {
+  color: #fff;
+  background-color: #23afb7;
+  border-color: #1b6736;
+}
+
 .connect-block {
 	display: inline-block;
 	margin: 0;
@@ -167,4 +192,83 @@ h4 {
 	background-color: gainsboro;
 	padding: 5px;
 	border-radius: 7px;
+}
+
+
+/*============*/
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 25px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0,0.85);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  border:0;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: inline-block ;
+}
+
+.slideTitle {
+  font-family: monospace;
+  padding: 2px 0 0 15px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  border-bottom: 4px solid black;
+}
+
+.codeBlock pre {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
 }
