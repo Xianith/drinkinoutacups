@@ -15,37 +15,12 @@ $(document).ready(function(){
 
     		topStats[x] = data.DisplayName;
 
-
-    		console.log($.inArray(data.DisplayName, topStats));
-
-    		console.log(topStats[x]);
-
-    		if ($.inArray(data.DisplayName, topStats) != x) {
-    			console.log('got here');
-    			$.find('.Top' + data.DisplayName).push("<div class='stats-box'><div class='stats-img "+name+"' title='"+name+"'></div><div>"+data.Count+"</div></div></div>");
-    			// topStats[x] = null;
-    		} else {
-				if (x == 0 || x ==6 || x == 13) { items.push("<div class='col-sm-4'><ul class='list-group'>") }
-				items.push("<div class='list-group-item Top"+name+"'><div class='stats-name'>"+data.DisplayName+"</div>");
-				items.push("<div class='stats-box'><div class='stats-img "+name+"' title='"+name+"'></div><div>"+data.Count+"</div></div></div>");
-				if (x == 5|| x ==12 || x >= 20) { items.push("</div></ul>") }
-    		}
-
-
-
-			// switch (name) {
-			// 	case 'AnimalKills':
-			// 		items.push("<div class='stats-name'>"+data.DisplayName+"</div>");
-			// 		items.push("<div class='stats-box'><div class='stats-img "+name+"' name='"+name+"'></div><div>"+data.Count+"</p></div>");
-			// 		break;
-			// 	default: 
-			// 		items.push("<b class='stats-count'>"+name+"</b>");
-			// 		items.push("<p class='stats-count'>"+data.Count+"</p>");
-			// 		items.push("<p class='stats-name'>"+data.DisplayName+"</p>");
-			// 	    return;
-			// }
-	    }
+			if (x == 0 || x ==6 || x == 12) { items.push("<div class='col-sm-4'><ul class='list-group'>") }
+			items.push("<div class='list-group-item'><div class='stats-name Top"+name+"'>"+data.DisplayName+"</div>");
+			items.push("<div class='stats-box'><div class='stats-img "+name+"' title='"+name+"'></div><div>"+data.Count+"</div></div></div>");
+			if (x == 5|| x ==11 || x >= 20) { items.push("</div></ul>") }
 	    x++
+		}
 	    });
 	   
 	    $( "<ul/>", {
@@ -53,11 +28,6 @@ $(document).ready(function(){
 	      html: items.join( "" )
 	    }).appendTo( ".scoreboard" );
 	})
-
-	// $('#main').jPut({
-	//     jsonData:scoreboard,   //your json data
-	//     name:'template'  //jPut template name
-	// });
 
 	$(".infoShwBtn").click(function() {
 		console.log($(this).next('li').attr('style'));

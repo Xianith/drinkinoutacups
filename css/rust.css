@@ -275,7 +275,7 @@ h4 {
   background-color: white;
   border:1px solid black;
   border-radius: 3px;
-  width: 28%;
+  width: 32%;
   margin: auto;
 }
 
@@ -307,5 +307,100 @@ h4 {
   background: url(http://vignette2.wikia.nocookie.net/play-rust/images/6/62/T-Shirt_icon.png/revision/latest/scale-to-width-down/50?cb=20160211200547);
   background-size: cover;
 }
+
+.Headshots {
+  background: url(http://vignette4.wikia.nocookie.net/play-rust/images/9/9c/4x_Zoom_Scope_icon.png/revision/latest/scale-to-width-down/50?cb=20160211201610);
+  background-size: cover;
+}
+
+.PlantsGathered {
+  background: url(http://vignette2.wikia.nocookie.net/play-rust/images/c/c9/Hemp_Clone_icon.png/revision/latest/scale-to-width-down/50?cb=20170122060314);
+  background-size: cover;
+}
+
+.PlayersHealed {
+  background: url(http://vignette3.wikia.nocookie.net/play-rust/images/9/99/Medical_Syringe_icon.png/revision/latest/scale-to-width-down/50?cb=20151106061059);
+  background-size: cover;
+}
+
+.PlayersKilled {
+  background: url(http://vignette3.wikia.nocookie.net/play-rust/images/2/24/Human_Skull_icon.png/revision/latest/scale-to-width-down/50?cb=20151106061019);
+  background-size: cover;
+}
+
+.MeleeKills {
+  background: url(http://vignette3.wikia.nocookie.net/play-rust/images/3/34/Machete_icon.png/revision/latest/scale-to-width-down/50?cb=20151106060741&format=webp);
+  background-size: cover;
+}
+
+.RevolverKills {
+  background: url(http://vignette1.wikia.nocookie.net/play-rust/images/5/58/Revolver_icon.png/revision/latest/scale-to-width-down/50?cb=20160226092929&format=webp);
+  background-size: cover;
+}
+
+.RocketsFired {
+  background: url(http://vignette1.wikia.nocookie.net/play-rust/images/9/95/Rocket_icon.png/revision/latest/scale-to-width-down/50?cb=20151106061039);
+  background-size: cover;
+}
+
+.RocksGathered {
+  background: url(http://vignette4.wikia.nocookie.net/play-rust/images/8/85/Stones_icon.png/revision/latest/scale-to-width-down/50?cb=20150405123145);
+  background-size: cover;
+}
+
+.StructuresBuilt {
+  background: url(http://vignette2.wikia.nocookie.net/play-rust/images/b/ba/Building_Plan_icon.png/revision/latest/scale-to-width-down/50?cb=20151106061847&format=webp);
+  background-size: cover;
+}
+
+.StructuresRepaired {
+  background: url(http://vignette4.wikia.nocookie.net/play-rust/images/5/57/Hammer_icon.png/revision/latest/scale-to-width-down/50?cb=20151106061319);
+  background-size: cover;
+}
+
+.ExplosivesThrown {
+  background: url(http://vignette3.wikia.nocookie.net/play-rust/images/5/52/F1_Grenade_icon.png/revision/latest/scale-to-width-down/50?cb=20151106054509&format=webp);
+  background-size: cover;
+}
+
+.WeaponsCrafted {
+  background: url(http://vignette1.wikia.nocookie.net/play-rust/images/3/3b/Repair_Bench_icon.png/revision/latest/scale-to-width-down/50?cb=20151119214020&format=webp);
+  background-size: cover;
+}
+
+.WoodGathered {
+  background: url(http://vignette4.wikia.nocookie.net/play-rust/images/f/f2/Wood_icon.png/revision/latest/scale-to-width-down/50?cb=20151106061551);
+  background-size: cover;
+}
+
+.PVEKillDistance {
+  background: url(http://vignette2.wikia.nocookie.net/play-rust/images/0/00/Wolf_Headdress_icon.png/revision/latest/scale-to-width-down/50?cb=20160211200352);
+  background-size: cover;
+}
+
+.PVPKillDistance {
+  background: url(http://vignette1.wikia.nocookie.net/play-rust/images/6/60/Reactive_Target_icon.png/revision/latest/scale-to-width-down/50?cb=20160331070018&format=webp);
+  background-size: cover;
+}
+
+.TopAnimalKills::before {content: "Hunter ";color:  #358c33; }
+.TopArrowKills::before {content: "Archer ";color:  #358c33; }
+.TopClothesCrafted::before {content: "Tailor ";color:  #358c33; }
+.TopHeadshots::before {content: "Assassin ";color:  #358c33; }
+.TopPlantsGathered::before {content: "Harvester ";color:  #358c33; }
+.TopPlayersHealed::before {content: "Medic ";color:  #358c33; }
+.TopPlayersKilled::before {content: "Murderer ";color:  #358c33; }
+.TopMeleeKills::before {content: "Fighter ";color:  #358c33; }
+.TopRevolverKills::before {content: "Gunslinger ";color:  #358c33; }
+.TopRocketsFired::before {content: "Rocketeer ";color:  #358c33; }
+.TopRocksGathered::before {content: "Miner ";color:  #358c33; }
+.TopStructuresBuilt::before {content: "Architect ";color:  #358c33; }
+.TopStructuresRepaired::before {content: "Handyman ";color:  #358c33; }
+.TopExplosivesThrown::before {content: "Bomb -tech";color:  #358c33; }
+.TopWeaponsCrafted::before {content: "Gunsmith ";color:  #358c33; }
+.TopWoodGathered::before {content: "Lumberjack ";color:  #358c33; }
+.TopPVEKillDistance::before {content: "Deadshot ";color:  #358c33; }
+.TopPVPKillDistance::before {content: "Sniper ";color:  #358c33; }
+
 
 /*============End Stats*/
