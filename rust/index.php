@@ -38,12 +38,12 @@
 
 <!-- Moadls for extensive plugin view -->
 
-<div id="betterLoot" class="modal">
+<div id="alphaLoot" class="modal">
   <span class="close cursor">&times;</span>
   <div class="modal-content">
 
-    <div class="betterLoot">
-      <div class="slideTitle">BetterLoot - Config snippet</div>
+    <div class="alphaLoot">
+      <div class="slideTitle">alphaLoot - Config snippet</div>
 
       <div class="codeBlock">
       <pre><code>
@@ -212,12 +212,12 @@
       </ul>
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
        <a href="#stacksize" class="list-group-item">Improved stack sizes</a>
-       <a href="#betterloot" class="list-group-item">Better loot tables</a>
+       <a href="#alphaloot" class="list-group-item">Better loot tables</a>
        <a href="#fancydrop" class="list-group-item">Mass Drops every hour</a>
        <a href="#nodecay" class="list-group-item">Thatch decays x2 as fast</a>
      </ul>
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
-       <a href="#betterloot" class="list-group-item">Removed useless items</a>
+       <a href="#alphaloot" class="list-group-item">Removed useless items</a>
        <a href="#autopurge" class="list-group-item">Purge every 6 hours</a>
        <li class="list-group-item">Wipes only when forced</li>
      </ul>
@@ -268,6 +268,24 @@
   </div>
  </div>
 
+<div class="bgimg-2">
+ <div class="caption">
+   <span class="border" style="font-size:35px;">TRACK YOUR STATS!</span>
+ </div>
+</div>
+
+<div style="position:relative;">
+  <div style="text-align:center;padding:50px 80px;">
+
+  <h3 style="text-align:center;">Show everyone how awesome you are!</h3>
+ 
+  <div class="row">
+    <div class="scoreboard">
+    </div>
+  </div>
+
+  </div>
+ </div>
 
 <div class="bgimg-2">
   <div class="caption">
@@ -287,18 +305,18 @@
         <ul class="list-group">
           <!-- <img src="../img/rust/pvp.png" style="text-align:center; height: 115px"> -->
           <a target="_blank" href="http://oxidemod.org/plugins/airstrike.1489/" class="list-group-item list-group-item-warning">AirStrike</a>
+          <div class="alphaLoot">
+            <a href="" onclick="return false;" name="alphaloot" class="infoShwBtn list-group-item list-group-item-info">AlphaLoot<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+            <li class="list-group-item" style="display: none;">
+              <a class="btn btn-sm btn-default modalOpener">Config File</a>
+              <a target="_blank" href="http://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default">Plugin Link</a>
+            </li>
+          </div>
           <a target="_blank" href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
           <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item">AutoGrade</a>
           <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item list-group-item-info">AutoPurge</a>
           <a target="_blank" href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
           <a target="_blank" href="http://oxidemod.org/plugins/betterchat-mute.2272/" class="list-group-item">BetterChatMute</a>
-          <div class="betterLoot">
-	          <a href="" onclick="return false;" name="betterloot" class="infoShwBtn list-group-item list-group-item-info">BetterLoot<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
-	            <li class="list-group-item" style="display: none;">
-	              <a class="btn btn-sm btn-default modalOpener">Config File</a>
-	              <a target="_blank" href="http://oxidemod.org/plugins/betterloot.828/" class="btn btn-sm btn-default">Plugin Link</a>
-	            </li>
-	      </div>
           <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
           <a target="_blank" href="http://oxidemod.org/plugins/rust-io-clans.842/" class="list-group-item">Clans</a>
           <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpsDuration</a>

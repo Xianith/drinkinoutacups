@@ -78,7 +78,7 @@ h4 {
 
 
 
-/*==========Discord Button*/
+/*==========Buttons*/
 
 .btn-discord {
   color: #5671AC;
@@ -103,8 +103,6 @@ h4 {
   background-color: #4A6090;
   border-color: #364F86;
 }
-
-/*===========Map Button*/
 
 .btn-map {
   color: #2ca757;
@@ -194,8 +192,7 @@ h4 {
 	border-radius: 7px;
 }
 
-
-/*============*/
+/*End Buttons============*/
 
 .row > .column {
   padding: 0 8px;
@@ -272,3 +269,43 @@ h4 {
     border: 0;
     border-radius: 0;
 }
+
+/*============Stats*/
+.stats-box {
+  background-color: white;
+  border:1px solid black;
+  border-radius: 3px;
+  width: 28%;
+  margin: auto;
+}
+
+.stats-box p{
+  color:black;
+  border-top: 1px solid black;
+  font-size: 20px
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.stats-img {
+  width: 50px;
+  height: 50px;
+  margin:auto;
+}
+
+.AnimalKills {
+  background: url(http://vignette1.wikia.nocookie.net/play-rust/images/f/fa/Wolf_Skull_icon.png/revision/latest?cb=20150405124414);
+  background-size: cover;
+}
+
+.ArrowKills {
+  background: url(http://vignette3.wikia.nocookie.net/play-rust/images/3/3d/Wooden_Arrow_icon.png/revision/latest/scale-to-width-down/100?cb=20151106061615);
+  background-size: cover;
+}
+
+.ClothesCrafted {
+  background: url(http://vignette2.wikia.nocookie.net/play-rust/images/6/62/T-Shirt_icon.png/revision/latest/scale-to-width-down/50?cb=20160211200547);
+  background-size: cover;
+}
+
+/*============End Stats*/
