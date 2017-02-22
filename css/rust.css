@@ -213,6 +213,17 @@ h4 {
   width: 25%;
 }
 
+/*Info Buttons*/
+.modalOpener,.pluginLink {
+  width: 48%;
+}
+
+#plugins .list-group {
+  line-height: .8em;
+}
+
+#stats .list-group-item { border: 0; }
+
 /* The Modal (background) */
 .modal {
   display: none;

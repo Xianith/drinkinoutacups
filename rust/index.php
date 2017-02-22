@@ -289,7 +289,7 @@
  </div>
 </div>
 
-<div style="position:relative;">
+<div style="position:relative;" id="stats">
   <div style="text-align:center;padding:50px 80px;">
 
   <h3 style="text-align:center;">Show everyone how awesome you are!</h3>
@@ -308,7 +308,7 @@
   </div>
 </div>
 
-<div style="position:relative;">
+<div style="position:relative;" id="plugins">
   <div style="text-align:center;padding:50px 80px;text-align: justify;">
       <h3 style="text-align:center;">You want em' we got em'</h3>
       <h4 style="text-align:center;">With custom settings to boot!</h4>
@@ -321,20 +321,21 @@
           <!-- <img src="../img/rust/pvp.png" style="text-align:center; height: 115px"> -->
           <a target="_blank" href="http://oxidemod.org/plugins/airstrike.1489/" class="list-group-item list-group-item-warning">AirStrike</a>
           <div class="alphaLoot">
-            <a href="" onclick="return false;" name="alphaloot" class="infoShwBtn list-group-item list-group-item-info">AlphaLoot<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+            <a href="" onclick="return false;" name="alphaloot" class="infoShwBtn list-group-item list-group-item-info">AlphaLoot<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
             <li class="list-group-item" style="display: none;">
               <a class="btn btn-sm btn-default modalOpener">Config File</a>
-              <a target="_blank" href="http://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default">Plugin Link</a>
+              <a target="_blank" href="http://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
             </li>
           </div>
           <a target="_blank" href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/antiofflineraid.1464/" name ="offlineraid" class="list-group-item">AntiOfflineRaid</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item">AutoGrade</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/antiofflineraid.1464/" name ="offlineraid" class="list-group-item list-group-item-warning">AntiOfflineRaid</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item list-group-item-warning">AutoGrade</a>
           <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item">AutoPurge</a>
           <a target="_blank" href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
           <a target="_blank" href="http://oxidemod.org/plugins/betterchat-mute.2272/" class="list-group-item">BetterChatMute</a>
           <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/rust-io-clans.842/" class="list-group-item">Clans</a>
+          <!-- <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item">Bounty</a> -->
+          <a target="_blank" href="http://www.chaoscode.io/resources/clans-reborn.14/" class="list-group-item">ClansReborn</a>
           <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpseDuration</a>
           <a target="_blank" href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item">CraftingController</a>
           <a target="_blank" href="http://oxidemod.org/plugins/easyvote.2102/" class="list-group-item">EasyVote</a>
@@ -349,10 +350,10 @@
        <div class="col-sm-4">
         <ul class="list-group">
 	      <div class="gatherManager">
-	          <a href="" onclick="return false;" name="gathermanager" class="infoShwBtn list-group-item list-group-item-info">GatherManager<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+	          <a href="" onclick="return false;" name="gathermanager" class="infoShwBtn list-group-item list-group-item-info">GatherManager<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
 	            <li class="list-group-item" style="display: none;">
 	              <a class="btn btn-sm btn-default modalOpener">Config File</a>
-	              <a target="_blank" href="http://oxidemod.org/plugins/gather-manager.675/" class="btn btn-sm btn-default">Plugin Link</a>
+	              <a target="_blank" href="http://oxidemod.org/plugins/gather-manager.675/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
 	            </li>
 	      </div>
         <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop</a>
@@ -378,10 +379,10 @@
         <ul class="list-group">
         <a target="_blank" href="http://oxidemod.org/plugins/protocol-kick-information.2041/" class="list-group-item">ProtocolKickInfo</a>
         <div class="quickSmelt">
-            <a href="" onclick="return false;" name="quicksmelt" class="infoShwBtn list-group-item list-group-item-info">QuickSmelt<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+            <a href="" onclick="return false;" name="quicksmelt" class="infoShwBtn list-group-item list-group-item-info">QuickSmelt<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
               <li class="list-group-item" style="display: none;">
                 <a class="btn btn-sm btn-default modalOpener">Config File</a>
-                <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default">Plugin Link</a>
+                <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>
         <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
@@ -393,10 +394,10 @@
         <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sleeper-animal-protection.1959/" class="list-group-item">SleeperAnimalProtection</a>
         <div class="stackSize">
-            <a href="" onclick="return false;" name="stacksize" class="infoShwBtn list-group-item list-group-item-info">StackSizeController<span class="glyphicon glyphicon-info-sign" style="float: right; top: 8px;"></span></a>
+            <a href="" onclick="return false;" name="stacksize" class="infoShwBtn list-group-item list-group-item-info">StackSizeController<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
               <li class="list-group-item" style="display: none;">
                 <a class="btn btn-sm btn-default modalOpener">Config File</a>
-                <a target="_blank" href="http://oxidemod.org/plugins/stack-size-controller.1185/" class="btn btn-sm btn-default">Plugin Link</a>
+                <a target="_blank" href="http://oxidemod.org/plugins/stack-size-controller.1185/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>
         <a target="_blank" href="http://oxidemod.org/threads/timed-execute.18395/" class="list-group-item">TimedExectue</a>
