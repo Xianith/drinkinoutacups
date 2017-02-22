@@ -160,7 +160,7 @@
       ...
 
       ...
-      "Sticks": 250000,
+      "Sticks": 250000, //Removed via other plugin
       "Stone Barricade": 10,
       "Stone Hatchet": 1,
       "Stone Pick Axe": 1,
@@ -180,7 +180,7 @@
 
 <div class="bgimg-1">
   <div class="caption">
-    <span class="border">DRINKIN OUTA CUPS</span>
+    <a href="http://doc-clan.com"><span class="border">DRINKIN OUTA CUPS</span></a>
   </div>
 
   <div class="scroll-indicator">
@@ -219,6 +219,7 @@
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
        <a href="#alphaloot" class="list-group-item">Removed useless items</a>
        <a href="#autopurge" class="list-group-item">Purge every 6 hours</a>
+       <a href="#offlineraid" class="list-group-item">Offline Raid protection</a>
        <li class="list-group-item">Wipes only when forced</li>
      </ul>
    </div>
@@ -227,13 +228,28 @@
   <h4>For everything outside of the game</h4>
 
   <hr>
-
   <div class="button-land" role="group" style="width: 25%; margin:auto">
     <a target="_blank" href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
     <a target="_blank" href="https://discord.gg/0aVDKqSEos1SAKGd" class="btn btn-lg btn-discord btn-block">Discord</a>
     <a target="_blank" href="https://rust-servers.net/server/108636/vote/" class="btn btn-lg btn-vote btn-block">Vote</a>
     <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Donate</a>
+
+    <!-- <div class="donate">
+         <a href="" onclick="return false;" name="donate" class="infoShwBtn btn btn-lg btn-donate btn-block">Donate</a>
+           <li class="list-group-item" style="display: none;">
+             <a class="btn btn-sm btn-default modalOpener">Config File</a>
+             <a target="_blank" href="http://oxidemod.org/plugins/donate.1067/" class="btn btn-sm btn-default">Plugin Link</a>
+           </li>
+     </div> -->
+
   </div>  
+
+  <hr>
+  <h4>New players rejoice!</h4>
+  <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b></p>
+  <p>After 18 hours the damage scale goes from 0% to 25% after 24 it goes to 50% and after 48 it is back up to 100%</p>
+  <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the proteciton to take effect.</p>
+
 
 </div>
 
@@ -245,22 +261,21 @@
 
 <div style="position:relative;">
   <div style="text-align:center;padding:50px 80px;">
-  <p>We'd love to hear what you think of the server so far! Check out the survey below and give us all the feedback you can.
+  <p>We'd love to hear what you think of the server so far! Check out the surveys below and give us all the feedback you can.
   
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
-  	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Start of Server Survey</a>
+  		<a target="_blank" href="https://goo.gl/forms/awOp6e7ZddiGh73k1" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Wipe Frequency</a>
+  	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Start of Server</a>
   	</div> 
 
 
   <hr>
   <h4>Start up promo!</h4>
   <p>Refer friends to our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
-
   <p>Get in touch with an active admin for your promotion code and additional details!</p>
 
   <hr>
   <h4>Admins On Duty</h4>
-
   <div style="text-decoration: bold;font-family: 'logo'; letter-spacing: 5px">
   <div class="discord-widget"></div>
   </div>
@@ -313,20 +328,20 @@
             </li>
           </div>
           <a target="_blank" href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/antiofflineraid.1464/" name ="offlineraid" class="list-group-item">AntiOfflineRaid</a>
           <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item">AutoGrade</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item list-group-item-info">AutoPurge</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item">AutoPurge</a>
           <a target="_blank" href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
           <a target="_blank" href="http://oxidemod.org/plugins/betterchat-mute.2272/" class="list-group-item">BetterChatMute</a>
           <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
           <a target="_blank" href="http://oxidemod.org/plugins/rust-io-clans.842/" class="list-group-item">Clans</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpsDuration</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item list-group-item-info">CraftingController</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpseDuration</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item">CraftingController</a>
           <a target="_blank" href="http://oxidemod.org/plugins/easyvote.2102/" class="list-group-item">EasyVote</a>
           <a target="_blank" href="http://oxidemod.org/plugins/economics.717/" class="list-group-item">Economics</a>
           <a target="_blank" href="http://oxidemod.org/plugins/enhanced-hammer.1439/" class="list-group-item">EnhancedHammer</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/explodingbarrels.1902/" class="list-group-item list-group-item-info">ExplodingBarrels</a> 
-          <a target="_blank" href="http://oxidemod.org/plugins/fancydrop.1934/" name="fancydrop" class="list-group-item list-group-item-info">FancyDrop</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/flippable-turrets.2055/" class="list-group-item">FlippableTurrets</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/fancydrop.1934/" name="fancydrop" class="list-group-item">FancyDrop</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/fishing.1537/" class="list-group-item">Fishing</a>
           <a target="_blank" href="http://oxidemod.org/plugins/rust-io-friendlyfire.840/" class="list-group-item">FriendlyFire</a>
           <a target="_blank" href="http://oxidemod.org/plugins/friends-api.686/" class="list-group-item">Friends</a>
         </ul>
@@ -341,7 +356,8 @@
 	            </li>
 	      </div>
         <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item list-group-item-info">HotKeys</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/helivote.1665/" class="list-group-item">HeliVote</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item">HotKeys</a>
         <a target="_blank" href="http://oxidemod.org/plugins/imagelibrary.2193/" class="list-group-item">ImageLibrary</a>
         <a target="_blank" href="http://oxidemod.org/plugins/infopanel.1356/" class="list-group-item list-group-item-info">InfoPanel</a>
         <a target="_blank" href="http://oxidemod.org/plugins/inventory-viewer.871/" class="list-group-item">InventoryViewer</a>
@@ -352,12 +368,10 @@
         <a target="_blank" href="http://oxidemod.org/plugins/metabolism.680/" class="list-group-item">Metabolism</a>
         <a target="_blank" href="http://oxidemod.org/plugins/moneytime.836/" name="moneytime" class="list-group-item">MoneyTime</a>
         <a target="_blank" href="http://oxidemod.org/plugins/nightlantern.1182/" class="list-group-item">NightLantern</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/nodecay.1160/" name="nodecay" class="list-group-item list-group-item-info">NoDecay</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/nodecay.1160/" name="nodecay" class="list-group-item">NoDecay</a>
         <a target="_blank" href="http://oxidemod.org/plugins/noescape.1394/" class="list-group-item">NoEscape</a>
         <a target="_blank" href="http://oxidemod.org/plugins/n-teleportation.1832/" class="list-group-item list-group-item-warning">NTeleportation</a>
         <a target="_blank" href="http://oxidemod.org/plugins/player-challenges.1442/" class="list-group-item">PlayerChallenges</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/private-messaging.659/" class="list-group-item">PrivateMessage</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/promocodes.1471/" class="list-group-item">PromoCode</a>
         </ul>
        </div>
        <div class="col-sm-4">
@@ -371,12 +385,11 @@
               </li>
         </div>
         <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item">RemoverTool</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item list-group-item-info">RemoverTool</a>
         <a target="_blank" href="http://oxidemod.org/plugins/robbery.736/" class="list-group-item">Robbery</a>
         <a target="_blank" href="http://oxidemod.org/plugins/rusted-store.2134/" class="list-group-item">RustedStore</a>
         <a target="_blank" href="http://oxidemod.org/extensions/rust-io.768/" class="list-group-item">RustIO</a>
         <a target="_blank" href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/shareddoors.2108/" class="list-group-item">SharedDoors</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sleeper-animal-protection.1959/" class="list-group-item">SleeperAnimalProtection</a>
         <div class="stackSize">
@@ -387,9 +400,9 @@
               </li>
         </div>
         <a target="_blank" href="http://oxidemod.org/threads/timed-execute.18395/" class="list-group-item">TimedExectue</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/timed-permissions.1926/" class="list-group-item list-group-item-warning">TimedPermissions</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/timed-permissions.1926/" class="list-group-item">TimedPermissions</a>
         <a target="_blank" href="http://oxidemod.org/plugins/trade.1242/" class="list-group-item">Trade</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/turbogather.2221/" class="list-group-item">TurboGather</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/turbogather.2221/" class="list-group-item list-group-item-warning">TurboGather</a>
         <a target="_blank" href="http://oxidemod.org/plugins/universalui.2226/" class="list-group-item list-group-item-info">UniversalUI</a>
         <a target="_blank" href="http://oxidemod.org/plugins/vanish.1420/" class="list-group-item">Vanish</a>
         <a target="_blank" href="http://oxidemod.org/plugins/weapons-on-back.2188/" class="list-group-item">WeaponsOnBack</a>
@@ -399,7 +412,7 @@
 
       <div style="font-size: 12px; line-height: 3px">
       	<p><span class="glyphicon glyphicon-info-sign"></span> icon indicates that we provide a snippet of our config.</p>
-        <p>Plugins <b style="color: #8a6d3b">colored like this</b> can be obtained via donations / Gold shop / daily or they have limits.</p>
+        <p>Plugins <b style="color: #8a6d3b">colored like this</b> can be obtained via <a href="#serverRewards">donations</a> / <a href="#serverRewards">gold shop</a> / daily or they have limits.</p>
         <p>Plugins <b style="color: #31708f">colored like this</b> have been heavily modifed for this server.</p>
         <p><b style="font-size: 10px">All plugins use custom settings</b></p>
       </div>

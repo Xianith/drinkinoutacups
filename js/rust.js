@@ -9,16 +9,29 @@ $(document).ready(function(){
 	    $.each( data.Titles, function(name, data) {
     	if (data.DisplayName != null && data.Count != 0) {
 
-    		if (data.Count >= 1000) {
+    		if (data.Count >= 1000 && data.Count <= 999999) {
     			data.Count = ((data.Count / 1000) | 0) + "k";
     		}
 
-    		topStats[x] = data.DisplayName;
+    		if (data.Count >= 1000000) {
+    			data.Count = (data.Count / 1000000).toFixed(1) + "m";
+    		}
 
-			if (x == 0 || x ==6 || x == 12) { items.push("<div class='col-sm-4'><ul class='list-group'>") }
-			items.push("<div class='list-group-item'><div class='stats-name Top"+name+"'>"+data.DisplayName+"</div>");
+    		// if (top)
+
+    		// if($.inArray(data.DisplayName, topStats))
+    		// {
+    		// } else {
+    		// 	topStats.push(data.DisplayName);
+    		// }
+
+
+    		// console.log(topStats);
+
+			if (x == 0 || x ==6 || x == 13) { items.push("<div class='col-sm-4'><ul class='list-group'>") }
+			items.push("<div class='list-group-item "+data.DisplayName+"'><div class='stats-name Top"+name+"'>"+data.DisplayName+"</div>");
 			items.push("<div class='stats-box'><div class='stats-img "+name+"' title='"+name+"'></div><div>"+data.Count+"</div></div></div>");
-			if (x == 5|| x ==11 || x >= 20) { items.push("</div></ul>") }
+			if (x == 5 || x ==12 || x >= 20) { items.push("</div></ul>") }
 	    x++
 		}
 	    });

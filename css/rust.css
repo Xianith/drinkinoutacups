@@ -43,6 +43,10 @@ body, html {
   color: #000;
 }
 
+.caption a:hover, a:focus {
+  text-decoration: none;
+}
+
 .caption span.border {
   font-family: "logo";
   color: white;
@@ -329,9 +333,15 @@ h4 {
 }
 
 .MeleeKills {
+  background: url(http://vignette2.wikia.nocookie.net/play-rust/images/f/ff/Rock_icon.png/revision/latest/scale-to-width-down/50?cb=20151106061532&format=webp);
+  background-size: cover;
+}
+
+.BladeKills {
   background: url(http://vignette3.wikia.nocookie.net/play-rust/images/3/34/Machete_icon.png/revision/latest/scale-to-width-down/50?cb=20151106060741&format=webp);
   background-size: cover;
 }
+
 
 .RevolverKills {
   background: url(http://vignette1.wikia.nocookie.net/play-rust/images/5/58/Revolver_icon.png/revision/latest/scale-to-width-down/50?cb=20160226092929&format=webp);
@@ -391,12 +401,13 @@ h4 {
 .TopPlayersHealed::before {content: "Medic ";color:  #358c33; }
 .TopPlayersKilled::before {content: "Murderer ";color:  #358c33; }
 .TopMeleeKills::before {content: "Fighter ";color:  #358c33; }
+.TopBladeKills::before {content: "Samurai ";color:  #358c33; }
 .TopRevolverKills::before {content: "Gunslinger ";color:  #358c33; }
 .TopRocketsFired::before {content: "Rocketeer ";color:  #358c33; }
 .TopRocksGathered::before {content: "Miner ";color:  #358c33; }
 .TopStructuresBuilt::before {content: "Architect ";color:  #358c33; }
 .TopStructuresRepaired::before {content: "Handyman ";color:  #358c33; }
-.TopExplosivesThrown::before {content: "Bomb -tech";color:  #358c33; }
+.TopExplosivesThrown::before {content: "Bomb-tech ";color:  #358c33; }
 .TopWeaponsCrafted::before {content: "Gunsmith ";color:  #358c33; }
 .TopWoodGathered::before {content: "Lumberjack ";color:  #358c33; }
 .TopPVEKillDistance::before {content: "Deadshot ";color:  #358c33; }
