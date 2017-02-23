@@ -30,152 +30,12 @@
   });
   discordWidget.render();
 </script>
-
-
 </head>
 
+
 <body>
-
 <!-- Moadls for extensive plugin view -->
-
-<div id="alphaLoot" class="modal">
-  <span class="close cursor">&times;</span>
-  <div class="modal-content">
-
-    <div class="alphaLoot">
-      <div class="slideTitle">alphaLoot - Config snippet</div>
-
-      <div class="codeBlock">
-      <pre><code>
-      {
-        "ItemListBarrels": {
-          "propanetank": 2,
-          "riflebody": 2,
-          "roadsigns": 5,
-          "rope": 5,
-          "semibody": 2,
-          "sewingkit": 2,
-          "sheetmetal": 5
-        },
-        "ItemListCrates": {
-          "riflebody": 5,
-          "roadsigns": 5,
-          "rope": 5,
-          "semibody": 5,
-          "sewingkit": 5,
-          "sheetmetal": 5,
-          "smallwaterbottle": 1,
-          "smgbody": 5,
-          "metalspring": 5
-        }
-      }
-      </code></pre>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div id="gatherManager" class="modal">
-  <span class="close cursor">&times;</span>
-  <div class="modal-content">
-
-    <div class="gatherManager">
-      <div class="slideTitle">GatherManager - Config snippet</div>
-
-      <div class="codeBlock">
-      <pre><code>
-      "Options": {
-        "GatherDispenserModifiers": {},
-        "GatherResourceModifiers": {
-          "*": 10.0,
-          "Cloth": 10.0,
-          "Stones": 10.0,
-          "Sulfur Ore": 10.0,
-          "Wood": 10.0
-        },
-        "MiningQuarryResourceTickRate": 5.0,
-        "PickupResourceModifiers": {
-          "*": 10.0
-        },
-        "QuarryResourceModifiers": {
-          "Stones": 25.0,
-          "Sulfur Ore": 25.0,
-          "Metal Ore": 15.0
-        },
-        "SurveyResourceModifiers": {}
-      </code></pre>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div id="quickSmelt" class="modal">
-  <span class="close cursor">&times;</span>
-  <div class="modal-content">
-
-    <div class="quickSmelt">
-      <div class="slideTitle">QuickSmelt - Config snippet</div>
-
-      <div class="codeBlock">
-      <pre><code>
-      {
-        "ByproductModifier": 25.0,
-        "ByproductPercent": 50,
-        "CookedModifier": 10.0,
-        "CookedPercent": 100,
-        "FuelUsageModifier": 1,
-        "OvercookMeat": false,
-        "UsePermissions": false
-      }
-      </code></pre>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<div id="stackSize" class="modal">
-  <span class="close cursor">&times;</span>
-  <div class="modal-content">
-
-    <div class="stackSize">
-      <div class="slideTitle">StackSizeController - Config snippet</div>
-
-      <div class="codeBlock">
-      <pre><code>
-      ...
-      "Mushroom": 50,
-      "Muzzle Boost": 1,
-      "Muzzle Brake": 1,
-      "Note": 250000,
-      "One Sided Town Sign Post": 250000,
-      "Pants": 1,
-      "Paper": 250000,
-      "Paper Map": 250000,
-      "Pick Axe": 1,
-      "Pistol Bullet": 250000,
-      "Pookie Bear": 250000,
-      ...
-
-      ...
-      "Sticks": 250000, //Removed via other plugin
-      "Stone Barricade": 10,
-      "Stone Hatchet": 1,
-      "Stone Pick Axe": 1,
-      "Stone Spear": 1,
-      "Stones": 250000,
-      "Sulfur": 250000,
-      "Sulfur Ore": 250000,
-      ...
-      </code></pre>
-      </div>
-    </div>
-
-  </div>
-</div>
-
+<?php include("../includes/modals.php");?>
 <!-- End of modals -->
 
 <div class="bgimg-1">
@@ -189,7 +49,6 @@
 </div>
 
 <a name="start"></a>
-
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px">
 
 <h3>Come shoot some stuff!</h3>
@@ -199,7 +58,19 @@
 
   <p>You can donate for perks through the <b>/donate</b> store. Gold is used in the Gold shop for temp perks.</p>
 
-  <p>All donor perks can be purcahsed in game via the <b>/s</b> menu. Dedicated Admins are always available to help through Discord.</p>
+  <p>All donor perks can be purcahsed in game via the <b>/gold</b> shop. Dedicated Admins are always available to help through Discord.</p>
+
+  <div id="promo">
+    <h3>Start up promo!</h3>
+    <p>Refer friends to our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
+    <p>Get in touch with an active admin for your promotion code and additional details!</p>
+
+    <hr>
+    <h4>New players rejoice!</h4>
+    <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b></p>
+    <div style="font-size:11px;line-height: 1px"><p>After 18 hours the damage scale goes from 0% to 25% after 24 it goes to 50% and after 48 it is back up to 100%</p>
+    <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the proteciton to take effect.</p></div>
+  </div>
 
   <hr>
   <h4>Our awesome deets</h4>
@@ -230,26 +101,11 @@
   <hr>
   <div class="button-land" role="group" style="width: 25%; margin:auto">
     <a target="_blank" href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
-    <a target="_blank" href="https://discord.gg/0aVDKqSEos1SAKGd" class="btn btn-lg btn-discord btn-block">Discord</a>
+    <a target="_blank" href="https://discord.gg/TGJrJFN" class="btn btn-lg btn-discord btn-block">Discord</a>
     <a target="_blank" href="https://rust-servers.net/server/108636/vote/" class="btn btn-lg btn-vote btn-block">Vote</a>
-    <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Donate</a>
-
-    <!-- <div class="donate">
-         <a href="" onclick="return false;" name="donate" class="infoShwBtn btn btn-lg btn-donate btn-block">Donate</a>
-           <li class="list-group-item" style="display: none;">
-             <a class="btn btn-sm btn-default modalOpener">Config File</a>
-             <a target="_blank" href="http://oxidemod.org/plugins/donate.1067/" class="btn btn-sm btn-default">Plugin Link</a>
-           </li>
-     </div> -->
+    <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Direct Donate</a>
 
   </div>  
-
-  <hr>
-  <h4>New players rejoice!</h4>
-  <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b></p>
-  <p>After 18 hours the damage scale goes from 0% to 25% after 24 it goes to 50% and after 48 it is back up to 100%</p>
-  <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the proteciton to take effect.</p>
-
 
 </div>
 
@@ -261,18 +117,23 @@
 
 <div style="position:relative;">
   <div style="text-align:center;padding:50px 80px;">
-  <p>We'd love to hear what you think of the server so far! Check out the surveys below and give us all the feedback you can.
+  <p>We'd love to hear what you think of the server so far! Check out the survey below and give us all the feedback you can.
   
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
-  		<a target="_blank" href="https://goo.gl/forms/awOp6e7ZddiGh73k1" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Wipe Frequency</a>
-  	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Start of Server</a>
+  	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feedback Survey</a>
   	</div> 
 
 
   <hr>
-  <h4>Start up promo!</h4>
-  <p>Refer friends to our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
-  <p>Get in touch with an active admin for your promotion code and additional details!</p>
+  <h4>Times are a changin!</h4>
+  <p>We want to keep all of our players informed on our top decissions.</p>
+  <p>New plugins and major plugin changes will be documented here when possible!</p>
+
+	<div class="changeLog">
+		<div>
+			<a class="btn btn-lg btn-default modalOpener">Change Log</a>
+		</div>
+	</div>
 
   <hr>
   <h4>Admins On Duty</h4>
@@ -321,7 +182,7 @@
           <!-- <img src="../img/rust/pvp.png" style="text-align:center; height: 115px"> -->
           <a target="_blank" href="http://oxidemod.org/plugins/airstrike.1489/" class="list-group-item list-group-item-warning">AirStrike</a>
           <div class="alphaLoot">
-            <a href="" onclick="return false;" name="alphaloot" class="infoShwBtn list-group-item list-group-item-info">AlphaLoot<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
+            <a href="" onclick="return false;" name="alphaloot" class="infoShwBtn list-group-item list-group-item-info"><b>AlphaLoot</b><span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
             <li class="list-group-item" style="display: none;">
               <a class="btn btn-sm btn-default modalOpener">Config File</a>
               <a target="_blank" href="http://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
@@ -334,8 +195,8 @@
           <a target="_blank" href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
           <a target="_blank" href="http://oxidemod.org/plugins/betterchat-mute.2272/" class="list-group-item">BetterChatMute</a>
           <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
-          <!-- <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item">Bounty</a> -->
-          <a target="_blank" href="http://www.chaoscode.io/resources/clans-reborn.14/" class="list-group-item">ClansReborn</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/bounty.1649/" class="list-group-item">Bounty</a>
+          <a target="_blank" href="http://www.chaoscode.io/resources/clans-reborn.14/" class="list-group-item"><b>ClansReborn</b></a>
           <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpseDuration</a>
           <a target="_blank" href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item">CraftingController</a>
           <a target="_blank" href="http://oxidemod.org/plugins/easyvote.2102/" class="list-group-item">EasyVote</a>
@@ -344,11 +205,11 @@
           <a target="_blank" href="http://oxidemod.org/plugins/fancydrop.1934/" name="fancydrop" class="list-group-item">FancyDrop</a>
           <a target="_blank" href="http://oxidemod.org/plugins/fishing.1537/" class="list-group-item">Fishing</a>
           <a target="_blank" href="http://oxidemod.org/plugins/rust-io-friendlyfire.840/" class="list-group-item">FriendlyFire</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/friends-api.686/" class="list-group-item">Friends</a>
         </ul>
        </div>
        <div class="col-sm-4">
         <ul class="list-group">
+        <a target="_blank" href="http://oxidemod.org/plugins/friends-api.686/" class="list-group-item">Friends</a>
 	      <div class="gatherManager">
 	          <a href="" onclick="return false;" name="gathermanager" class="infoShwBtn list-group-item list-group-item-info">GatherManager<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
 	            <li class="list-group-item" style="display: none;">
@@ -356,7 +217,7 @@
 	              <a target="_blank" href="http://oxidemod.org/plugins/gather-manager.675/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
 	            </li>
 	      </div>
-        <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop<!-- <span class="glyphicon glyphicon-flash" style="float: right;"></span> --></a>
         <a target="_blank" href="http://oxidemod.org/plugins/helivote.1665/" class="list-group-item">HeliVote</a>
         <a target="_blank" href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item">HotKeys</a>
         <a target="_blank" href="http://oxidemod.org/plugins/imagelibrary.2193/" class="list-group-item">ImageLibrary</a>
@@ -388,7 +249,7 @@
         <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
         <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item list-group-item-info">RemoverTool</a>
         <a target="_blank" href="http://oxidemod.org/plugins/robbery.736/" class="list-group-item">Robbery</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/rusted-store.2134/" class="list-group-item">RustedStore</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/rusted-store.2134/" class="list-group-item" name="RustedStore">RustedStore</a>
         <a target="_blank" href="http://oxidemod.org/extensions/rust-io.768/" class="list-group-item">RustIO</a>
         <a target="_blank" href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
@@ -411,36 +272,20 @@
        </div>
       </div>
 
-      <div style="font-size: 12px; line-height: 3px">
-      	<p><span class="glyphicon glyphicon-info-sign"></span> icon indicates that we provide a snippet of our config.</p>
-        <p>Plugins <b style="color: #8a6d3b">colored like this</b> can be obtained via <a href="#serverRewards">donations</a> / <a href="#serverRewards">gold shop</a> / daily or they have limits.</p>
-        <p>Plugins <b style="color: #31708f">colored like this</b> have been heavily modifed for this server.</p>
-        <p><b style="font-size: 10px">All plugins use custom settings</b></p>
+      <div style="font-size: 10.5px; line-height: 3px">
+      	<p><span class="glyphicon glyphicon-info-sign"></span> indicates that we provide a snippet of our config.</p>
+   <!--      <p><span class="glyphicon glyphicon-flash"></span> indicates that the plugin has a dependancy that isn't listed here.</p> -->
+        <p><b style="color: #8a6d3b">This color</b> indicates the plugin can be obtained via <a href="#RustedStore">donation</a> / <a href="#serverRewards">gold shop</a> / daily or has a limit.</p>
+        <p><b style="color: #31708f">This color</b> indicates the plugin has been heavily modifed for this server.</p>
+        <p><b>Bold</b> indicates the plugin was purchased via donations.
       </div>
 
       <hr>
 
-      <p style="text-align:center;">Created by <a target="_blank" href="">Xianith</a></p>
+      <p style="text-align:center;">Created by <a target="_blank" href="http://xianith.com">Xianith</a></p>
 
   </div>
 </div>
-
-<!-- <div class="bgimg-3">
-  <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
-  </div>
-</div>
-
-<div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-  </div>
-</div>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">COOL!</span>
-  </div>
-</div> -->
 
 </body>
+</html>

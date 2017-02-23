@@ -62,7 +62,7 @@
     <div class="jumbotron" class="visibledesktop">
       <h1>Hey there..</h1>
       <p class="lead">We play video games!</p>
-      <p><a class="btn btn-lg btn-success" href="https://discord.gg/0aVDKqSEos1SAKGd" role="button">Join us</a></p>
+      <!-- <p><a class="btn btn-lg btn-success" href="https://discord.gg/0aVDKqSEos1SAKGd" role="button">Join us</a></p> -->
     </div>
 
 <!--     <div class="visibledevice">

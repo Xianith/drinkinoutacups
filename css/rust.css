@@ -213,6 +213,16 @@ h4 {
   width: 25%;
 }
 
+#promo {
+  background-color: #f6eded;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid;
+  min-width: 45em;
+}
+
 /*Info Buttons*/
 .modalOpener,.pluginLink {
   width: 48%;
@@ -246,7 +256,33 @@ h4 {
   padding: 0;
   width: 90%;
   border:0;
-  max-width: 1200px;
+  max-width: 75%;
+}
+
+/* Change log */
+
+.minus,.plus {
+    line-height: .8em;
+}
+
+.clog {
+  padding:5px;
+  background-color: black;
+  color:white;
+}
+
+.clog p{
+  padding-left: 10px;
+}
+
+.minus:before{
+  content: '- ';
+  color: red;
+}
+
+.plus:before{
+  content: '+ ';
+  color: green;
 }
 
 /* The Close Button */
