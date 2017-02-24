@@ -9,7 +9,6 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 <link href="../bs/css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/rust.css" rel="stylesheet">
@@ -33,10 +32,44 @@
 </head>
 
 
-<body>
+<body id="page-top">
 <!-- Moadls for extensive plugin view -->
 <?php include("../includes/modals.php");?>
 <!-- End of modals -->
+
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                <i class="fa fa-rss"></i>Drinkin Outa Cups
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#start">Info</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#feedback">Feedback</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#stats">Stats</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#plugins">Plugins</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 <div class="bgimg-1">
   <div class="caption">
@@ -44,12 +77,12 @@
   </div>
 
   <div class="scroll-indicator">
-  	<a href="#start" title="Scroll Down"><span class="glyphicon glyphicon-chevron-down"></span></a>
+  	<a href="#start" class="page-scroll" title="Scroll Down"><span class="glyphicon glyphicon-chevron-down"></span></a>
   </div>
 </div>
 
 <a name="start"></a>
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px">
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px" id="start">
 
 <h3>Come shoot some stuff!</h3>
 <span class="connect-block"><b>client.connect 198.23.148.162:28245</b></span>
@@ -115,31 +148,32 @@
   </div>
 </div>
 
-<div style="position:relative;">
+<div style="position:relative;" id="feedback">
   <div style="text-align:center;padding:50px 80px;">
+  <h3>We want all the feedback!</h3>
+  <h4>Let us know what's hot and what's not</h4>
   <p>We'd love to hear what you think of the server so far! Check out the survey below and give us all the feedback you can.
   
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
   	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feedback Survey</a>
   	</div> 
 
+	<hr>
+	<h4>Admins On Duty</h4>
+	<div style="text-decoration: bold;font-family: 'logo'; letter-spacing: 5px">
+		<div class="discord-widget"></div>
+	</div>	
 
-  <hr>
-  <h4>Times are a changin!</h4>
-  <p>We want to keep all of our players informed on our top decissions.</p>
-  <p>New plugins and major plugin changes will be documented here when possible!</p>
+	<hr>
+	<h4>Times are a changin!</h4>
+	<p>We want to keep all of our players informed of our top decissions.</p>
+	<p>New plugins and major changes will be documented here when possible!</p>
 
 	<div class="changeLog">
 		<div>
 			<a class="btn btn-lg btn-default modalOpener">Change Log</a>
 		</div>
 	</div>
-
-  <hr>
-  <h4>Admins On Duty</h4>
-  <div style="text-decoration: bold;font-family: 'logo'; letter-spacing: 5px">
-  <div class="discord-widget"></div>
-  </div>
 
   </div>
  </div>
@@ -286,6 +320,8 @@
 
   </div>
 </div>
+
+<script src="../js/jquery.easing.min.js"></script>
 
 </body>
 </html>

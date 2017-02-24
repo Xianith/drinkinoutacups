@@ -81,7 +81,7 @@
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <h4>Connections</h4>
         <a class="nav-images" href="http://steamcommunity.com/groups/drinkinoutacups"><img title="Steam Group" src="img/steam.png" height="35px" padding-right="5px"></img></a>
-        <a class="nav-images" href="https://discord.gg/0aVDKqSEos1SAKGd"><img title="Discord" src="img/discord.png" height="35px"></img></a>
+        <!-- <a class="nav-images" href="https://discord.gg/0aVDKqSEos1SAKGd"><img title="Discord" src="img/discord.png" height="35px"></img></a> -->
         <a class="nav-images" href="http://drinkinoutacups.com/rust"><img alt="Rust:iO Map Shortcut" title="Rust:iO Map" src="img/rust.png" height="35px"></img></a>
       </div>
 

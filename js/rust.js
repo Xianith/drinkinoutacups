@@ -1,3 +1,37 @@
+// jQuery to collapse the navbar on scroll
+function collapseNavbar() {
+    if ($(".navbar").offset().top > 500) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+}
+
+var modalLock = false;
+
+$(window).scroll(function() {
+	if (modalLock == false) {collapseNavbar();}
+});
+$(document).ready(collapseNavbar);
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+  if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
+    $('.navbar-toggle:visible').click();
+  }
+});
+
 $(document).ready(function(){
 
 	if(window.location.href.indexOf('#changeLog') != -1) {
@@ -51,11 +85,9 @@ $(document).ready(function(){
 
 		if ($(this).next('li').attr('style') == 'display: none;') {
 			$(this).next('li').css('display','');
-			console.log('1');
 
 		} else {
 			$(this).next('li').css('display','none');
-			console.log('2');
 		}
 	});
 
@@ -63,11 +95,18 @@ $(document).ready(function(){
 	$(".modalOpener").click(function() {
 		var modal = $(this).parent().parent().attr('class');
 			$("#" + modal).show();
+			modalLock = true;
+			$("body").css('overflow','hidden');
+			$(".navbar-fixed-top").removeClass("top-nav-collapse");
 	});
 
 
-	$(".close").click(function() {
+	$(".close,.closer").click(function() {
 			$(this).parent().hide();
+			modalLock = false;
+			$("body").css('overflow','visible');
+			$(".navbar-fixed-top").addClass("top-nav-collapse");
+			$(".navbar-fixed-top").show();
 	});
 
 });
