@@ -85,7 +85,7 @@
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px" id="start">
 
 <h3>Come shoot some stuff!</h3>
-<span class="connect-block"><b>client.connect 198.23.148.162:28245</b></span>
+<a class="connect-block" href="steam://connect/198.23.148.162:28245">client.connect 198.23.148.162:28245</a>
 
   <p>We strive to bring a decent atmosphere to rust without adding too much overhead. Everything within the game should be easily accessible via the <b>/help</b> menu.</p>
 

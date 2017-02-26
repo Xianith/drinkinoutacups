@@ -150,6 +150,12 @@
           <p class="plus">Granted autograde.3 and autograde.4 to vip group (Metal / HQM)</p>
           <p class="plus">Added Bounty plugin (With popup depency plugin)</p>
           <p class="minus">Re-enabled stability and cleared a lot of un-cupboarded entities</p>
+        <i>2/26</i>
+          <p class="plus">Added ResetCodeLocks plugin</p>
+          <p class="plus">Added CustomAutoKits plugin</p>
+          <p class="plus">Modified Kits to add VIP auto kit</p>
+          <p class="minus">Disabled Polls plugin</p>
+          <p class="minus">Disabled CustomAutoKits plugin</p>
       </div>
     </div>
   </div>
