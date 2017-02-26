@@ -36,6 +36,9 @@ $(document).ready(function(){
 
 	if(window.location.href.indexOf('#changeLog') != -1) {
 	  $('#changeLog').show();
+	  modalLock = true;
+	  $("body").css('overflow','hidden');
+	  $(".navbar-fixed-top").removeClass("top-nav-collapse");
 	}
 
 	var scoreboard = $.getJSON( "../rust/challenge_data.json", function(data) {
