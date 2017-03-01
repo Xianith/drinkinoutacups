@@ -155,6 +155,7 @@
   <p>We'd love to hear what you think of the server so far! Check out the survey below and give us all the feedback you can.
   
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
+      <a target="_blank" href="      https://docs.google.com/forms/d/e/1FAIpQLSdcvtzQHJUI5e2MctzF536OW_S9FLgCa0bF2utvGNs14wgbtg/viewform" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Next Paid Plugin</a>
   	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feedback Survey</a>
   	</div> 
 
@@ -252,6 +253,7 @@
 	            </li>
 	      </div>
         <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop<!-- <span class="glyphicon glyphicon-flash" style="float: right;"></span> --></a>
+        <a target="_blank" href="http://oxidemod.org/plugins/heliride.2274/" class="list-group-item">HeliRide</a>
         <a target="_blank" href="http://oxidemod.org/plugins/helivote.1665/" class="list-group-item">HeliVote</a>
         <a target="_blank" href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item">HotKeys</a>
         <a target="_blank" href="http://oxidemod.org/plugins/imagelibrary.2193/" class="list-group-item">ImageLibrary</a>
@@ -280,6 +282,7 @@
                 <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>
+        <a target="_blank" href="http://oxidemod.org/plugins/ragnarok.1985/" class="list-group-item">Ragnarok</a>
         <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
         <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item list-group-item-info">RemoverTool</a>
         <a target="_blank" href="http://oxidemod.org/plugins/robbery.736/" class="list-group-item">Robbery</a>

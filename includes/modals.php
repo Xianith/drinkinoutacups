@@ -156,6 +156,13 @@
           <p class="plus">Modified Kits to add VIP auto kit</p>
           <p class="minus">Disabled Polls plugin</p>
           <p class="minus">Disabled CustomAutoKits plugin</p>
+        <i>2/28</i>
+          <p class="plus">Added AntiLootDespawn plugin</p>
+          <p class="plus">Added HeliRide plugin</p>
+          <p class="plus">Added Ragnarok plugin</p>
+          <p class="plus">Modified AntiLootDespawn to up it to 4x</p>
+          <p class="minus">Deleted Polls plugin entirely</p>
+          <p class="minus">Deleted CustomAutoKits plugin entirely</p>
       </div>
     </div>
   </div>
