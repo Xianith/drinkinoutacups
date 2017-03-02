@@ -115,7 +115,7 @@
         "RocketsFired": 10,
         "RocksGathered": 58775,
         "BladeKills": 1,
-        "StructuresBuilt": 800,
+        "StructuresBuilt": 723,
         "StructuresRepaired": 33,
         "ExplosivesThrown": 86,
         "WeaponsCrafted": 7,
@@ -3365,9 +3365,9 @@
         "RocketsFired": 250,
         "RocksGathered": 539330,
         "BladeKills": 0,
-        "StructuresBuilt": 5488,
+        "StructuresBuilt": 5487,
         "StructuresRepaired": 1257,
-        "ExplosivesThrown": 785,
+        "ExplosivesThrown": 783,
         "WeaponsCrafted": 1064,
         "WoodGathered": 1705240,
         "QuestsCompleted": 0,
@@ -3430,7 +3430,7 @@
       "Stats": {
         "AnimalKills": 84,
         "ArrowKills": 0,
-        "ClothesCrafted": 82,
+        "ClothesCrafted": 45,
         "Headshots": 77,
         "PlantsGathered": 0,
         "PlayersHealed": 10,
@@ -3503,7 +3503,7 @@
     "76561198119450941": {
       "DisplayName": "[IMA] Ima Cat Meow",
       "Stats": {
-        "AnimalKills": 124,
+        "AnimalKills": 123,
         "ArrowKills": 0,
         "ClothesCrafted": 14,
         "Headshots": 75,
@@ -5353,7 +5353,7 @@
     "76561198041494392": {
       "DisplayName": "Mikey",
       "Stats": {
-        "AnimalKills": 14,
+        "AnimalKills": 13,
         "ArrowKills": 0,
         "ClothesCrafted": 6,
         "Headshots": 0,
@@ -5365,7 +5365,7 @@
         "RocketsFired": 0,
         "RocksGathered": 197070,
         "BladeKills": 0,
-        "StructuresBuilt": 1581,
+        "StructuresBuilt": 1578,
         "StructuresRepaired": 11,
         "ExplosivesThrown": 3,
         "WeaponsCrafted": 79,
@@ -7253,7 +7253,7 @@
     "76561198126890739": {
       "DisplayName": "[Ass] Mexican Jesus",
       "Stats": {
-        "AnimalKills": 94,
+        "AnimalKills": 92,
         "ArrowKills": 0,
         "ClothesCrafted": 147,
         "Headshots": 6,
@@ -7267,7 +7267,7 @@
         "BladeKills": 0,
         "StructuresBuilt": 5213,
         "StructuresRepaired": 3344,
-        "ExplosivesThrown": 179,
+        "ExplosivesThrown": 176,
         "WeaponsCrafted": 326,
         "WoodGathered": 553040,
         "QuestsCompleted": 0,
@@ -7290,8 +7290,8 @@
         "RocketsFired": 8,
         "RocksGathered": 438160,
         "BladeKills": 0,
-        "StructuresBuilt": 3359,
-        "StructuresRepaired": 1207,
+        "StructuresBuilt": 3330,
+        "StructuresRepaired": 1018,
         "ExplosivesThrown": 35,
         "WeaponsCrafted": 55,
         "WoodGathered": 190860,
@@ -8782,7 +8782,7 @@
         "ArrowKills": 0,
         "ClothesCrafted": 12,
         "Headshots": 3,
-        "PlantsGathered": 523,
+        "PlantsGathered": 519,
         "PlayersHealed": 4,
         "PlayersKilled": 5,
         "MeleeKills": 0,
@@ -8790,9 +8790,9 @@
         "RocketsFired": 45,
         "RocksGathered": 1609560,
         "BladeKills": 0,
-        "StructuresBuilt": 1601,
+        "StructuresBuilt": 1569,
         "StructuresRepaired": 156,
-        "ExplosivesThrown": 83,
+        "ExplosivesThrown": 82,
         "WeaponsCrafted": 88,
         "WoodGathered": 751000,
         "QuestsCompleted": 0,
@@ -14637,12 +14637,12 @@
         "PlayersKilled": 2,
         "MeleeKills": 0,
         "RevolverKills": 0,
-        "RocketsFired": 29,
+        "RocketsFired": 15,
         "RocksGathered": 73490,
         "BladeKills": 0,
         "StructuresBuilt": 803,
         "StructuresRepaired": 195,
-        "ExplosivesThrown": 27,
+        "ExplosivesThrown": 16,
         "WeaponsCrafted": 20,
         "WoodGathered": 8650,
         "QuestsCompleted": 0,
@@ -14734,7 +14734,7 @@
         "Headshots": 1,
         "PlantsGathered": 41,
         "PlayersHealed": 0,
-        "PlayersKilled": 2,
+        "PlayersKilled": 1,
         "MeleeKills": 0,
         "RevolverKills": 0,
         "RocketsFired": 5,
@@ -16049,56 +16049,6 @@
         "PVEKillDistance": 0,
         "PVPKillDistance": 0
       }
-    },
-    "76561198277845204": {
-      "DisplayName": "NexusHD",
-      "Stats": {
-        "AnimalKills": 0,
-        "ArrowKills": 0,
-        "ClothesCrafted": 0,
-        "Headshots": 0,
-        "PlantsGathered": 15,
-        "PlayersHealed": 0,
-        "PlayersKilled": 0,
-        "MeleeKills": 0,
-        "RevolverKills": 0,
-        "RocketsFired": 0,
-        "RocksGathered": 0,
-        "BladeKills": 0,
-        "StructuresBuilt": 0,
-        "StructuresRepaired": 0,
-        "ExplosivesThrown": 0,
-        "WeaponsCrafted": 0,
-        "WoodGathered": 0,
-        "QuestsCompleted": 0,
-        "PVEKillDistance": 0,
-        "PVPKillDistance": 0
-      }
-    },
-    "76561198262872738": {
-      "DisplayName": "PICOLLO",
-      "Stats": {
-        "AnimalKills": 0,
-        "ArrowKills": 0,
-        "ClothesCrafted": 0,
-        "Headshots": 0,
-        "PlantsGathered": 0,
-        "PlayersHealed": 0,
-        "PlayersKilled": 0,
-        "MeleeKills": 0,
-        "RevolverKills": 0,
-        "RocketsFired": 0,
-        "RocksGathered": 0,
-        "BladeKills": 0,
-        "StructuresBuilt": 40,
-        "StructuresRepaired": 1,
-        "ExplosivesThrown": 0,
-        "WeaponsCrafted": 0,
-        "WoodGathered": 0,
-        "QuestsCompleted": 0,
-        "PVEKillDistance": 0,
-        "PVPKillDistance": 0
-      }
     }
   },
   "Titles": {
@@ -16125,7 +16075,7 @@
     "PlantsGathered": {
       "UserID": 76561198052352774,
       "DisplayName": "Chromus",
-      "Count": 523
+      "Count": 519
     },
     "PlayersHealed": {
       "UserID": 76561198089477398,
@@ -16175,7 +16125,7 @@
     "ExplosivesThrown": {
       "UserID": 76561198032045118,
       "DisplayName": "Bintopean",
-      "Count": 785
+      "Count": 783
     },
     "WeaponsCrafted": {
       "UserID": 76561198148391252,

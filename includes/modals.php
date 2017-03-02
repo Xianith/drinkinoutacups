@@ -163,6 +163,10 @@
           <p class="plus">Modified AntiLootDespawn to up it to 4x</p>
           <p class="minus">Deleted Polls plugin entirely</p>
           <p class="minus">Deleted CustomAutoKits plugin entirely</p>
+        <i>3/1</i>
+          <p class="plus">Added CraftSpamBlocker plugin</p>
+          <p class="plus">Stats page updates every 15 minutes</p>
+          <p class="minus">Deleted Ragnarok plugin</p>
       </div>
     </div>
   </div>
