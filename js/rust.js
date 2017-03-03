@@ -41,6 +41,13 @@ $(document).ready(function(){
 	  $(".navbar-fixed-top").removeClass("top-nav-collapse");
 	}
 
+	if(window.location.href.indexOf('#voteBox') != -1) {
+	  $('#voteBox').show();
+	  modalLock = true;
+	  $("body").css('overflow','hidden');
+	  $(".navbar-fixed-top").removeClass("top-nav-collapse");
+	}
+
 	var scoreboard = $.getJSON( "../rust/challenge_data.json", function(data) {
 	  var items = [];
 	  var x = 0;
@@ -96,7 +103,7 @@ $(document).ready(function(){
 
 
 	$(".modalOpener").click(function() {
-		var modal = $(this).parent().parent().attr('class');
+		var modal = $(this).data('modal');
 			$("#" + modal).show();
 			modalLock = true;
 			$("body").css('overflow','hidden');

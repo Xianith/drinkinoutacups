@@ -102,7 +102,7 @@
     <h4>New players rejoice!</h4>
     <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b></p>
     <div style="font-size:11px;line-height: 1px"><p>After 18 hours the damage scale goes from 0% to 25% after 24 it goes to 50% and after 48 it is back up to 100%</p>
-    <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the proteciton to take effect.</p></div>
+    <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the protection to take effect.</p></div>
   </div>
 
   <hr>
@@ -135,7 +135,8 @@
   <div class="button-land" role="group" style="width: 25%; margin:auto">
     <a target="_blank" href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
     <a target="_blank" href="https://discord.gg/TGJrJFN" class="btn btn-lg btn-discord btn-block">Discord</a>
-    <a target="_blank" href="https://rust-servers.net/server/108636/vote/" class="btn btn-lg btn-vote btn-block">Vote</a>
+    <a target="_blank" class="btn btn-lg btn-vote btn-block modalOpener" data-modal="voteBox">Vote</a>
+    <!-- <a target="_blank" href="http://doc-clan.com/rust/#voteBox" class="btn btn-lg btn-vote btn-block">Vote</a> -->
     <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Direct Donate</a>
 
   </div>  
@@ -155,7 +156,6 @@
   <p>We'd love to hear what you think of the server so far! Check out the survey below and give us all the feedback you can.
   
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
-      <a target="_blank" href="      https://docs.google.com/forms/d/e/1FAIpQLSdcvtzQHJUI5e2MctzF536OW_S9FLgCa0bF2utvGNs14wgbtg/viewform" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Next Paid Plugin</a>
   	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feedback Survey</a>
   	</div> 
 
@@ -170,11 +170,7 @@
 	<p>We want to keep all of our players informed of our top decissions.</p>
 	<p>New plugins and major changes will be documented here when possible!</p>
 
-	<div class="changeLog">
-		<div>
-			<a class="btn btn-lg btn-default modalOpener">Change Log</a>
-		</div>
-	</div>
+	<a class="btn btn-lg btn-default modalOpener" data-modal="changeLog">Change Log</a>
 
   </div>
  </div>
@@ -219,7 +215,7 @@
           <div class="alphaLoot">
             <a href="" onclick="return false;" name="alphaloot" class="infoShwBtn list-group-item list-group-item-info"><b>AlphaLoot</b><span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
             <li class="list-group-item" style="display: none;">
-              <a class="btn btn-sm btn-default modalOpener">Config File</a>
+              <a class="btn btn-sm btn-default modalOpener pluginLink" data-modal="alphaLoot">Config File</a>
               <a target="_blank" href="http://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
             </li>
           </div>
@@ -248,7 +244,7 @@
 	      <div class="gatherManager">
 	          <a href="" onclick="return false;" name="gathermanager" class="infoShwBtn list-group-item list-group-item-info">GatherManager<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
 	            <li class="list-group-item" style="display: none;">
-	              <a class="btn btn-sm btn-default modalOpener">Config File</a>
+	              <a class="btn btn-sm btn-default modalOpener pluginLink" data-modal="gatherManager">Config File</a>
 	              <a target="_blank" href="http://oxidemod.org/plugins/gather-manager.675/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
 	            </li>
 	      </div>
@@ -278,7 +274,7 @@
         <div class="quickSmelt">
             <a href="" onclick="return false;" name="quicksmelt" class="infoShwBtn list-group-item list-group-item-info">QuickSmelt<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
               <li class="list-group-item" style="display: none;">
-                <a class="btn btn-sm btn-default modalOpener">Config File</a>
+                <a class="btn btn-sm btn-default modalOpener pluginLink" data-modal="quickSmelt">Config File</a>
                 <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>
@@ -290,11 +286,12 @@
         <a target="_blank" href="http://oxidemod.org/extensions/rust-io.768/" class="list-group-item">RustIO</a>
         <a target="_blank" href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
+        <a target="_blank" href="http://www.chaoscode.io/resources/skinbox.17/" class="list-group-item"><b>SkinBox</b></a>
         <a target="_blank" href="http://oxidemod.org/plugins/sleeper-animal-protection.1959/" class="list-group-item">SleeperAnimalProtection</a>
         <div class="stackSize">
             <a href="" onclick="return false;" name="stacksize" class="infoShwBtn list-group-item list-group-item-info">StackSizeController<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
               <li class="list-group-item" style="display: none;">
-                <a class="btn btn-sm btn-default modalOpener">Config File</a>
+                <a class="btn btn-sm btn-default modalOpener pluginLink" data-modal="stackSize">Config File</a>
                 <a target="_blank" href="http://oxidemod.org/plugins/stack-size-controller.1185/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>

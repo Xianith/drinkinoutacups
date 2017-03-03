@@ -135,6 +135,20 @@
   </div>
 </div>
 
+<div id="voteBox" class="modal">
+  <span class="close cursor">&times;</span>
+  <div class="modal-content" style="top: 40%">
+
+    <div class="stackSize">
+      <a target="_blank" href="https://rust-servers.net/server/108636/vote/" class="btn btn-lg btn-default btn-block">Rust-Servers</a>
+
+      <a target="_blank" href="http://toprustservers.com/doc" class="btn btn-lg btn-default btn-block">TopRustServers</a>
+
+      <a target="_blank" href="http://beancan.io/post/72592" class="btn btn-lg btn-default btn-block">Beancan.Io</a>
+    </div>
+  </div>
+</div>
+
 <div id="changeLog" class="modal">
   <span class="close cursor">&times;</span>
   <div class="modal-content">
@@ -167,6 +181,15 @@
           <p class="plus">Added CraftSpamBlocker plugin</p>
           <p class="plus">Stats page updates every 15 minutes</p>
           <p class="minus">Deleted Ragnarok plugin</p>
+        <i>3/2</i>
+          <p class="plus">Added SkinBox plugin</p>
+          <p class="plus">Updated Server and Oxide plugins</p>
+          <p class="plus">Modified GUI shop to toggle the shop on /shop or pressing "i"</p>
+          <p class="plus">Updated UniversalUI command menu to inculde Gold / VIP buttons</p>
+          <p class="minus">Revoked VIP access to randomskin plugin (they have SkinBox now)</p>
+          <p class="minus">Deleted WeaponsOnBack plugin</p>
+          <p class="plus">Added voting box for multiple sites</p>
+          <p class="plus">Minor text changes. <b style="font-size:8px">shout out to purge</b></p>
       </div>
     </div>
   </div>
