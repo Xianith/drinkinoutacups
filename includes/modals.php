@@ -149,6 +149,11 @@
   </div>
 </div>
 
+<div id="starterBox" class="modal">
+  <span class="close cursor">&times;</span>
+  <img style="display:relative; margin:auto" src="../img/rust/starter.png">
+</div>
+
 <div id="changeLog" class="modal">
   <span class="close cursor">&times;</span>
   <div class="modal-content">
@@ -157,19 +162,25 @@
       <div class="slideTitle">Change Log</div>
 
       <div class="clog">
-        <i>2/22</i>
-          <p class="minus">Modified gold shop rewards (removed several T2 for balance)</p>
-          <p class="plus">Added Poll plugin</p>
-          <p class="plus">Modified VIP chat color (was blue, now gold)</p>
-          <p class="plus">Granted autograde.3 and autograde.4 to vip group (Metal / HQM)</p>
-          <p class="plus">Added Bounty plugin (With popup depency plugin)</p>
-          <p class="minus">Re-enabled stability and cleared a lot of un-cupboarded entities</p>
-        <i>2/26</i>
-          <p class="plus">Added ResetCodeLocks plugin</p>
-          <p class="plus">Added CustomAutoKits plugin</p>
-          <p class="plus">Modified Kits to add VIP auto kit</p>
-          <p class="minus">Disabled Polls plugin</p>
-          <p class="minus">Disabled CustomAutoKits plugin</p>
+        <i>3/5</i>
+          <p class="plus">Updated Removertool. Now includes dropping of items in containers</p>
+          <p class="plus">Updated stacks for new items</p>
+          <p class="plus">Updated nteleportation to include newly crafted Thunder Dome.<b style="font-size:8px">shout out to bintopean</b></p>
+          <p class="plus">Added ZoneManager plugin</p>
+          <p class="plus">Added ZoneCommand plugin</p>
+        <i>3/2</i>
+          <p class="plus">Added SkinBox plugin</p>
+          <p class="plus">Updated Server and Oxide plugins</p>
+          <p class="plus">Modified GUI shop to toggle the shop on /shop or pressing "i"</p>
+          <p class="plus">Updated UniversalUI command menu to inculde Gold / VIP buttons</p>
+          <p class="plus">Added voting box for multiple sites</p>
+          <p class="plus">Minor text changes. <b style="font-size:8px">shout out to purge</b></p>
+          <p class="minus">Revoked VIP access to randomskin plugin (they have SkinBox now)</p>
+          <p class="minus">Deleted WeaponsOnBack plugin</p>
+        <i>3/1</i>
+          <p class="plus">Added CraftSpamBlocker plugin</p>
+          <p class="plus">Stats page updates every 15 minutes</p>
+          <p class="minus">Deleted Ragnarok plugin</p>
         <i>2/28</i>
           <p class="plus">Added AntiLootDespawn plugin</p>
           <p class="plus">Added HeliRide plugin</p>
@@ -177,19 +188,19 @@
           <p class="plus">Modified AntiLootDespawn to up it to 4x</p>
           <p class="minus">Deleted Polls plugin entirely</p>
           <p class="minus">Deleted CustomAutoKits plugin entirely</p>
-        <i>3/1</i>
-          <p class="plus">Added CraftSpamBlocker plugin</p>
-          <p class="plus">Stats page updates every 15 minutes</p>
-          <p class="minus">Deleted Ragnarok plugin</p>
-        <i>3/2</i>
-          <p class="plus">Added SkinBox plugin</p>
-          <p class="plus">Updated Server and Oxide plugins</p>
-          <p class="plus">Modified GUI shop to toggle the shop on /shop or pressing "i"</p>
-          <p class="plus">Updated UniversalUI command menu to inculde Gold / VIP buttons</p>
-          <p class="minus">Revoked VIP access to randomskin plugin (they have SkinBox now)</p>
-          <p class="minus">Deleted WeaponsOnBack plugin</p>
-          <p class="plus">Added voting box for multiple sites</p>
-          <p class="plus">Minor text changes. <b style="font-size:8px">shout out to purge</b></p>
+        <i>2/26</i>
+          <p class="plus">Added ResetCodeLocks plugin</p>
+          <p class="plus">Added CustomAutoKits plugin</p>
+          <p class="plus">Modified Kits to add VIP auto kit</p>
+          <p class="minus">Disabled Polls plugin</p>
+          <p class="minus">Disabled CustomAutoKits plugin</p>
+        <i>2/22</i>
+          <p class="minus">Modified gold shop rewards (removed several T2 for balance)</p>
+          <p class="plus">Added Poll plugin</p>
+          <p class="plus">Modified VIP chat color (was blue, now gold)</p>
+          <p class="plus">Granted autograde.3 and autograde.4 to vip group (Metal / HQM)</p>
+          <p class="plus">Added Bounty plugin (With popup depency plugin)</p>
+          <p class="minus">Re-enabled stability and cleared a lot of un-cupboarded entities</p>
       </div>
     </div>
   </div>

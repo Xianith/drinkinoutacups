@@ -94,13 +94,13 @@
   <p>All donor perks can be purcahsed in game via the <b>/gold</b> shop. Dedicated Admins are always available to help through Discord.</p>
 
   <div id="promo">
-    <h3>Start up promo!</h3>
-    <p>Refer friends to our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
+    <h3>Refer a friend and win a prize!</h3>
+    <p>Refer friends to join our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
     <p>Get in touch with an active admin for your promotion code and additional details!</p>
 
     <hr>
     <h4>New players rejoice!</h4>
-    <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b></p>
+    <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b> as well as the following <a target="_blank" class="modalOpener" data-modal="starterBox">starter kit!</a></p>
     <div style="font-size:11px;line-height: 1px"><p>After 18 hours the damage scale goes from 0% to 25% after 24 it goes to 50% and after 48 it is back up to 100%</p>
     <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the protection to take effect.</p></div>
   </div>
@@ -110,21 +110,21 @@
   <div class="rates" style="text-align: center; display: inline-block;">
       <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left;">
         <a href="#gathermanager" class="list-group-item">Gather rate<span class="badge">x10</span></a>
-        <a href="#quicksmelt" class="list-group-item">Smelt rate<span class="badge">x5</span></a>
-        <a href="#moneytime" class="list-group-item">Caps per hour <span class="badge">30k</span></a>
-        <a href="#serverrewards" class="list-group-item">Caps to Gold<span class="badge">250k to 1</span></a>
+        <a href="#fancydrop" class="list-group-item">Mass Drops <span class="badge">hourly</span></a>
+        <a href="#stacksize" class="list-group-item">Improved stack sizes</a>
+        <a href="#alphaloot" class="list-group-item">Removed useless items</a>
       </ul>
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
-       <a href="#stacksize" class="list-group-item">Improved stack sizes</a>
+        <a href="#moneytime" class="list-group-item">Caps per hour <span class="badge">30k</span></a>
+        <a href="#autopurge" class="list-group-item">Purge <span class="badge">every 6 hours</span></a>
+        <a href="#offlineraid" class="list-group-item">Offline Raid protection</a>
        <a href="#alphaloot" class="list-group-item">Better loot tables</a>
-       <a href="#fancydrop" class="list-group-item">Mass Drops every hour</a>
-       <a href="#nodecay" class="list-group-item">Thatch decays x2 as fast</a>
      </ul>
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
-       <a href="#alphaloot" class="list-group-item">Removed useless items</a>
-       <a href="#autopurge" class="list-group-item">Purge every 6 hours</a>
-       <a href="#offlineraid" class="list-group-item">Offline Raid protection</a>
-       <li class="list-group-item">Wipes only when forced</li>
+       <a href="#serverrewards" class="list-group-item">Caps to Gold<span class="badge">250k to 1</span></a>
+       <a href="#nodecay" class="list-group-item">Block Clear <span class="badge">every 6 hours</span></a>
+       <a href="#quicksmelt" class="list-group-item">Quick Smelt</a>
+       <li class="list-group-item">Wipes monthly</li>
      </ul>
    </div>
 
@@ -136,7 +136,6 @@
     <a target="_blank" href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
     <a target="_blank" href="https://discord.gg/TGJrJFN" class="btn btn-lg btn-discord btn-block">Discord</a>
     <a target="_blank" class="btn btn-lg btn-vote btn-block modalOpener" data-modal="voteBox">Vote</a>
-    <!-- <a target="_blank" href="http://doc-clan.com/rust/#voteBox" class="btn btn-lg btn-vote btn-block">Vote</a> -->
     <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Direct Donate</a>
 
   </div>  
@@ -175,7 +174,7 @@
   </div>
  </div>
 
-<div class="bgimg-2">
+<div class="bgimg-4">
  <div class="caption">
    <span class="border" style="font-size:35px;">TRACK YOUR STATS!</span>
  </div>
@@ -225,6 +224,7 @@
           <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item">AutoPurge</a>
           <a target="_blank" href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
           <a target="_blank" href="http://oxidemod.org/plugins/betterchat-mute.2272/" class="list-group-item">BetterChatMute</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/block-remover.864/" class="list-group-item">BlockRemover</a>
           <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
           <a target="_blank" href="http://oxidemod.org/plugins/bounty.1649/" class="list-group-item">Bounty</a>
           <a target="_blank" href="http://www.chaoscode.io/resources/clans-reborn.14/" class="list-group-item"><b>ClansReborn</b></a>
@@ -278,7 +278,6 @@
                 <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>
-        <a target="_blank" href="http://oxidemod.org/plugins/ragnarok.1985/" class="list-group-item">Ragnarok</a>
         <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
         <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item list-group-item-info">RemoverTool</a>
         <a target="_blank" href="http://oxidemod.org/plugins/robbery.736/" class="list-group-item">Robbery</a>
@@ -301,7 +300,8 @@
         <a target="_blank" href="http://oxidemod.org/plugins/turbogather.2221/" class="list-group-item list-group-item-warning">TurboGather</a>
         <a target="_blank" href="http://oxidemod.org/plugins/universalui.2226/" class="list-group-item list-group-item-info">UniversalUI</a>
         <a target="_blank" href="http://oxidemod.org/plugins/vanish.1420/" class="list-group-item">Vanish</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/weapons-on-back.2188/" class="list-group-item">WeaponsOnBack</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/zone-command.1254/" class="list-group-item">ZoneCommand</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/zones-manager.739/" class="list-group-item">ZoneManager</a>
         </ul>
        </div>
       </div>
