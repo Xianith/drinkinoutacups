@@ -31,11 +31,9 @@
 </script>
 </head>
 
-
 <body id="page-top">
-<!-- Moadls for extensive plugin view -->
+
 <?php include("../includes/modals.php");?>
-<!-- End of modals -->
 
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
@@ -83,9 +81,10 @@
 
 <a name="start"></a>
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px" id="start">
+<!-- H3 Header -->
+<?php include("query/include.php");?> 
 
-<h3>Come shoot some stuff!</h3>
-<a class="connect-block" href="steam://connect/198.23.148.162:28245">client.connect 198.23.148.162:28245</a>
+<hr>
 
   <p>We strive to bring a decent atmosphere to rust without adding too much overhead. Everything within the game should be easily accessible via the <b>/help</b> menu.</p>
 
@@ -96,7 +95,7 @@
   <div id="promo">
     <h3>Refer a friend and win a prize!</h3>
     <p>Refer friends to join our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
-    <p>Get in touch with an active admin for your promotion code and additional details!</p>
+    <p>Get in touch with an active admin to get your VIP status and for additional details!</p>
 
     <hr>
     <h4>New players rejoice!</h4>
@@ -159,7 +158,7 @@
   	</div> 
 
 	<hr>
-	<h4>Admins On Duty</h4>
+	<h4>Staff On Duty</h4>
 	<div style="text-decoration: bold;font-family: 'logo'; letter-spacing: 5px">
 		<div class="discord-widget"></div>
 	</div>	
