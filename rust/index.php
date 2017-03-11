@@ -207,6 +207,22 @@
 
       <div class="row">
         <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4">
+          <a href="" onclick="return false;" class="infoShwBtn list-group-item list-group-item-success">CustomSignals<span class="glyphicon glyphicon-info-sign" style="float: right; top:10px;"></span></a>
+          <li class="list-group-item" style="display: none;">
+              Use resources to either call in a <b>attack helicopter</b> or a <b>low flying plane</b> (one you can shoot down) to your locaiton.
+          </li>
+        </div>
+        <div class="col-sm-4">
+        
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-sm-4">
         <ul class="list-group">
           <!-- <img src="../img/rust/pvp.png" style="text-align:center; height: 115px"> -->
           <a target="_blank" href="http://oxidemod.org/plugins/airstrike.1489/" class="list-group-item list-group-item-warning">AirStrike</a>
@@ -217,28 +233,35 @@
               <a target="_blank" href="http://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
             </li>
           </div>
-          <a target="_blank" href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/antilootdespawn.2066/" class="list-group-item">AntiLootDespawn</a>
           <a target="_blank" href="http://oxidemod.org/plugins/antiofflineraid.1464/" name ="offlineraid" class="list-group-item list-group-item-warning">AntiOfflineRaid</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item list-group-item-warning">AutoGrade</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item list-group-item-warning">AutoGrades</a>
           <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item">AutoPurge</a>
           <a target="_blank" href="http://oxidemod.org/plugins/better-chat.979/" class="list-group-item">BetterChat</a>
           <a target="_blank" href="http://oxidemod.org/plugins/betterchat-mute.2272/" class="list-group-item">BetterChatMute</a>
           <a target="_blank" href="http://oxidemod.org/plugins/block-remover.864/" class="list-group-item">BlockRemover</a>
           <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
           <a target="_blank" href="http://oxidemod.org/plugins/bounty.1649/" class="list-group-item">Bounty</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/build.715/" class="list-group-item">Build</a>
           <a target="_blank" href="http://www.chaoscode.io/resources/clans-reborn.14/" class="list-group-item"><b>ClansReborn</b></a>
+          <a target="_blank" href="http://oxidemod.org/plugins/copy-paste.716/" class="list-group-item">CopyPaste</a>
           <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpseDuration</a>
           <a target="_blank" href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item">CraftingController</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/craftspamblocker.1805/" class="list-group-item">CraftSpamBlocker</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/discordreport.2323/" class="list-group-item">DiscordReport</a>
           <a target="_blank" href="http://oxidemod.org/plugins/easyvote.2102/" class="list-group-item">EasyVote</a>
           <a target="_blank" href="http://oxidemod.org/plugins/economics.717/" class="list-group-item">Economics</a>
           <a target="_blank" href="http://oxidemod.org/plugins/enhanced-hammer.1439/" class="list-group-item">EnhancedHammer</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/entityowner.1255/" class="list-group-item">EntityOwner</a>
+          <a target="_blank" href="http://oxidemod.org/plugins/event-manager.740/" class="list-group-item">EventManager</a>
           <a target="_blank" href="http://oxidemod.org/plugins/fancydrop.1934/" name="fancydrop" class="list-group-item">FancyDrop</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/fishing.1537/" class="list-group-item">Fishing</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/rust-io-friendlyfire.840/" class="list-group-item">FriendlyFire</a>
         </ul>
        </div>
        <div class="col-sm-4">
         <ul class="list-group">
+        <a target="_blank" href="http://oxidemod.org/plugins/fishing.1537/" class="list-group-item">Fishing</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/rust-io-friendlyfire.840/" class="list-group-item">FriendlyFire</a>
         <a target="_blank" href="http://oxidemod.org/plugins/friends-api.686/" class="list-group-item">Friends</a>
 	      <div class="gatherManager">
 	          <a href="" onclick="return false;" name="gathermanager" class="infoShwBtn list-group-item list-group-item-info">GatherManager<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
@@ -247,28 +270,33 @@
 	              <a target="_blank" href="http://oxidemod.org/plugins/gather-manager.675/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
 	            </li>
 	      </div>
+        <a target="_blank" href="http://oxidemod.org/plugins/godmode.673/" class="list-group-item">Godmode</a>
         <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop<!-- <span class="glyphicon glyphicon-flash" style="float: right;"></span> --></a>
+        <a target="_blank" href="http://oxidemod.org/plugins/helicontrol.1348/" class="list-group-item">HeliControl</a>
         <a target="_blank" href="http://oxidemod.org/plugins/heliride.2274/" class="list-group-item">HeliRide</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/helivote.1665/" class="list-group-item">HeliVote</a>
         <a target="_blank" href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item">HotKeys</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/imagelibrary.2193/" class="list-group-item">ImageLibrary</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/ignore-api.1054/" class="list-group-item">Ignore</a>
         <a target="_blank" href="http://oxidemod.org/plugins/infopanel.1356/" class="list-group-item list-group-item-info">InfoPanel</a>
         <a target="_blank" href="http://oxidemod.org/plugins/inventory-viewer.871/" class="list-group-item">InventoryViewer</a>
         <a target="_blank" href="http://oxidemod.org/plugins/item-skin-randomizer.1328/" class="list-group-item list-group-item-warning">ItemSkinRandomizer</a>
         <a target="_blank" href="http://oxidemod.org/threads/protocol-kick-information.19972/" class="list-group-item">KickInfo</a>
         <a target="_blank" href="http://oxidemod.org/plugins/kill-feed.1433/" class="list-group-item">KillFeed</a>
         <a target="_blank" href="http://oxidemod.org/plugins/kits.668/" class="list-group-item list-group-item-warning">Kits</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/magic-craft.1347/" class="list-group-item">MagicCraft</a>
         <a target="_blank" href="http://oxidemod.org/plugins/metabolism.680/" class="list-group-item">Metabolism</a>
         <a target="_blank" href="http://oxidemod.org/plugins/moneytime.836/" name="moneytime" class="list-group-item">MoneyTime</a>
         <a target="_blank" href="http://oxidemod.org/plugins/nightlantern.1182/" class="list-group-item">NightLantern</a>
         <a target="_blank" href="http://oxidemod.org/plugins/nodecay.1160/" name="nodecay" class="list-group-item">NoDecay</a>
         <a target="_blank" href="http://oxidemod.org/plugins/noescape.1394/" class="list-group-item">NoEscape</a>
         <a target="_blank" href="http://oxidemod.org/plugins/n-teleportation.1832/" class="list-group-item list-group-item-warning">NTeleportation</a>
+        <a target="_blank" href="http://www.chaoscode.io/resources/plane-crash.16/" class="list-group-item"><b>PlaneCrash</b></a>
         <a target="_blank" href="http://oxidemod.org/plugins/player-challenges.1442/" class="list-group-item">PlayerChallenges</a>
         </ul>
        </div>
        <div class="col-sm-4">
         <ul class="list-group">
+        <a target="_blank" href="http://oxidemod.org/plugins/playerranks.2359/" class="list-group-item">PlayerRanks</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/popup-notifications.1252/" class="list-group-item">PopupNotificaitons</a>
         <a target="_blank" href="http://oxidemod.org/plugins/protocol-kick-information.2041/" class="list-group-item">ProtocolKickInfo</a>
         <div class="quickSmelt">
             <a href="" onclick="return false;" name="quicksmelt" class="infoShwBtn list-group-item list-group-item-info">QuickSmelt<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
@@ -277,11 +305,14 @@
                 <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>
+        <a target="_blank" href="http://www.chaoscode.io/resources/random-spawnpoints.3/" class="list-group-item"><b>RandomSpawns</b></a>
         <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
         <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item list-group-item-info">RemoverTool</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/resetcodelocks.2348/" class="list-group-item">ResetCodeLocks</a>
         <a target="_blank" href="http://oxidemod.org/plugins/robbery.736/" class="list-group-item">Robbery</a>
         <a target="_blank" href="http://oxidemod.org/plugins/rusted-store.2134/" class="list-group-item" name="RustedStore">RustedStore</a>
         <a target="_blank" href="http://oxidemod.org/extensions/rust-io.768/" class="list-group-item">RustIO</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/secureadmin.1449/" class="list-group-item" name="RustedStore">SecureAdmin</a>
         <a target="_blank" href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
         <a target="_blank" href="http://www.chaoscode.io/resources/skinbox.17/" class="list-group-item"><b>SkinBox</b></a>
@@ -306,8 +337,9 @@
       </div>
 
       <div style="font-size: 10.5px; line-height: 3px">
-      	<p><span class="glyphicon glyphicon-info-sign"></span> indicates that we provide a snippet of our config.</p>
+      	<p><span class="glyphicon glyphicon-info-sign"></span> indicates we provide additional information.</p>
    <!--      <p><span class="glyphicon glyphicon-flash"></span> indicates that the plugin has a dependancy that isn't listed here.</p> -->
+        <p><b style="color: #3c763d">This color</b> indicates the plugin was developed specifically for this server.</p>
         <p><b style="color: #8a6d3b">This color</b> indicates the plugin can be obtained via <a href="#RustedStore">donation</a> / <a href="#serverRewards">gold shop</a> / daily or has a limit.</p>
         <p><b style="color: #31708f">This color</b> indicates the plugin has been heavily modifed for this server.</p>
         <p><b>Bold</b> indicates the plugin was purchased via donations.

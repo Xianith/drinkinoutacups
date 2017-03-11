@@ -162,7 +162,12 @@
       <div class="slideTitle">Change Log</div>
 
       <div class="clog">
-		<i>3/7</i>
+        <i>3/9</i>
+      <p class="plus">Created and finalized first in-house plugin CustomSignals</p>
+      <p class="plus">Added PlayerRanks plugin</p>
+      <p class="plus">Added MagicCraf plugin</p>
+      <p class="plus">Updated All Plugins... thanks patch day.</p>
+		    <i>3/7</i>
 			<p class="plus">Added PlaneCrash plugin</p>
 			<p class="plus">Added Ignore plugin</p>
 			<p class="plus">Added RandomSpawns plugin</p>
