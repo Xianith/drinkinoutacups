@@ -149,9 +149,18 @@
   </div>
 </div>
 
-<div id="starterBox" class="modal">
+<div id="directdonateBox" class="modal">
   <span class="close cursor">&times;</span>
-  <img style="display:relative; margin:auto" src="../img/rust/starter.png">
+  <div class="modal-content" style="top: 40%">
+
+    <div style="padding: 9px; line-height: 15px;">
+      <p>Thank you for deciding to tipping us! Just a heads up that this is a direct tip to the funding for our server.
+      <b>This will not get you in-game perks</b>! Non the less we will still love you all the same.</p> 
+
+      <p>For in game perks, log onto the server and do <b>/donate</b></p> 
+      <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-default btn-block">Commence the Tipping!</a>
+    </div>
+  </div>
 </div>
 
 <div id="changeLog" class="modal">
@@ -167,8 +176,10 @@
       <p class="plus">Updated BetterChat</p>
       <p class="plus">Updated BetterChatMute</p>
       <p class="plus">Updated NoEscape</p>
+      <p class="minus">Adjusted tech trash drop rate to combat new C4 cost</p>
          <i>3/22</i>
-      <p class="plus">Brought on one final mod - Chromus</p>
+      <p class="plus">Brought on one final mod:</p>
+      <p>Chromus</p>
          <i>3/20</i>
       <p class="minus">Fixed Custom Suplpy Signal to take proper resources</p>
          <i>3/16</i>
@@ -183,7 +194,7 @@
        <li>Re-worked SupplySignal (between massdrpo and heliloot (no M249 / LR drops, metal chest / facemak drop)</li>
        <li>Hazmat suits are now rare loot</li>
        <li>Added Rope to chest loot</li>
-       <li>Limited TCs from being placed on foundations</li>
+       <li>Limited TCs to allow only being placed on foundations</li>
       </ul>
          <i>3/15</i>
       <p class="plus">Added ObjectRemover plugin</p>

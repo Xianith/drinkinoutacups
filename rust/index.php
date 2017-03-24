@@ -39,10 +39,10 @@
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                <i class="fa fa-bars"></i>
+                Drinkin Outa Cups
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <i class="fa fa-rss"></i>Drinkin Outa Cups
+                Drinkin Outa Cups
             </a>
         </div>
 
@@ -53,16 +53,16 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#start">Info</a>
+                    <a class="page-scroll" class="nav-btn Start" href="#start">Info</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#feedback">Feedback</a>
+                    <a class="page-scroll" class="nav-btn" href="#feedback">Feedback</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#stats">Stats</a>
+                    <a class="page-scroll" class="nav-btn" href="#stats">Stats</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#plugins">Plugins</a>
+                    <a class="page-scroll" class="navbtn" href="#plugins">Plugins</a>
                 </li>
             </ul>
         </div>
@@ -136,7 +136,8 @@
     <a target="_blank" href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
     <a target="_blank" href="https://discord.gg/TGJrJFN" class="btn btn-lg btn-discord btn-block">Discord</a>
     <a target="_blank" class="btn btn-lg btn-vote btn-block modalOpener" data-modal="voteBox">Vote</a>
-    <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Direct Donate</a>
+    <a target="_blank" class="btn btn-lg btn-donate btn-block modalOpener" data-modal="directdonateBox">Tip Jar</a>
+    <!-- <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Tip Jar</a> -->
 
   </div>  
 
@@ -152,15 +153,13 @@
   <div style="text-align:center;padding:50px 80px;">
   <h3>We want all the feedback!</h3>
   <h4>Let us know what's hot and what's not</h4>
-  <p>We'd love to hear what you think of the server so far! Check out the survey below and give us all the feedback you can.
+  <p>We'd love to hear what you think of the server! Check out the surveys below and give us all the feedback you can.
   
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
   	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feedback Survey</a>
-  	</div> 
-
-    <div class="button-land" role="group" style="width: 25%; margin:auto">
-      <a target="_blank" href="https://goo.gl/forms/l7PQdJLR8WEP4c2B2" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feature / Bug Submission</a>
-    </div> 
+  	<a target="_blank" href="https://goo.gl/forms/l7PQdJLR8WEP4c2B2" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feature / Bug Submission</a>
+  	</div>
+   </ul>
 
 	<hr>
 	<h4>Staff On Duty</h4>

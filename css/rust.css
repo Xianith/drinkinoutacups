@@ -238,7 +238,7 @@ h4 {
   line-height: .8em;
 }
 
-#stats .list-group-item { border: 0; }
+#stats .list-group-item { padding: 0; }
 
 /* The Modal (background) */
 .modal {
@@ -420,11 +420,20 @@ body.modal-open {
     }
 }
 
+.nvarbar-selected {
+  padding: 5px !important;
+  margin: 8px;
+  border: .15em solid orange;
+  border-radius: 2px;
+  color: orange  !important;
+}
+
+/*End Nav bar*/
+
 /*============Stats*/
 .stats-box {
-  background-color: white;
-  border:1px solid black;
-  border-radius: 3px;
+/*  border:1px solid black;
+  border-radius: 3px;*/
   width: 32%;
   margin: auto;
 }
@@ -539,25 +548,29 @@ body.modal-open {
   background-size: cover;
 }
 
-.TopAnimalKills::before {content: "Hunter ";color:  #358c33; }
-.TopArrowKills::before {content: "Archer ";color:  #358c33; }
-.TopClothesCrafted::before {content: "Tailor ";color:  #358c33; }
-.TopHeadshots::before {content: "Assassin ";color:  #358c33; }
-.TopPlantsGathered::before {content: "Harvester ";color:  #358c33; }
-.TopPlayersHealed::before {content: "Medic ";color:  #358c33; }
-.TopPlayersKilled::before {content: "Murderer ";color:  #358c33; }
-.TopMeleeKills::before {content: "Fighter ";color:  #358c33; }
-.TopBladeKills::before {content: "Samurai ";color:  #358c33; }
-.TopRevolverKills::before {content: "Gunslinger ";color:  #358c33; }
-.TopRocketsFired::before {content: "Rocketeer ";color:  #358c33; }
-.TopRocksGathered::before {content: "Miner ";color:  #358c33; }
-.TopStructuresBuilt::before {content: "Architect ";color:  #358c33; }
-.TopStructuresRepaired::before {content: "Handyman ";color:  #358c33; }
-.TopExplosivesThrown::before {content: "Bomb-tech ";color:  #358c33; }
-.TopWeaponsCrafted::before {content: "Gunsmith ";color:  #358c33; }
-.TopWoodGathered::before {content: "Lumberjack ";color:  #358c33; }
-.TopPVEKillDistance::before {content: "Deadshot ";color:  #358c33; }
-.TopPVPKillDistance::before {content: "Sniper ";color:  #358c33; }
+.stats-name {
+  font-size: 12px;
+}
+
+.TopAnimalKills::before {font-size: 20px; line-height: 20px; content: "Hunter\A"; display:block; color:  #358c33; }
+.TopArrowKills::before {font-size: 20px; line-height: 20px; content: "Archer\A"; display:block; color:  #358c33; }
+.TopClothesCrafted::before {font-size: 20px; line-height: 20px; content: "Tailor\A"; display:block; color:  #358c33; }
+.TopHeadshots::before {font-size: 20px; line-height: 20px; content: "Assassin\A"; display:block; color:  #358c33; }
+.TopPlantsGathered::before {font-size: 20px; line-height: 20px; content: "Harvester\A"; display:block; color:  #358c33; }
+.TopPlayersHealed::before {font-size: 20px; line-height: 20px; content: "Medic\A"; display:block; color:  #358c33; }
+.TopPlayersKilled::before {font-size: 20px; line-height: 20px; content: "Murderer\A"; display:block; color:  #358c33; }
+.TopMeleeKills::before {font-size: 20px; line-height: 20px; content: "Fighter\A"; display:block; color:  #358c33; }
+.TopBladeKills::before {font-size: 20px; line-height: 20px; content: "Samurai\A"; display:block; color:  #358c33; }
+.TopRevolverKills::before {font-size: 20px; line-height: 20px; content: "Gunslinger\A"; display:block; color:  #358c33; }
+.TopRocketsFired::before {font-size: 20px; line-height: 20px; content: "Rocketeer\A"; display:block; color:  #358c33; }
+.TopRocksGathered::before {font-size: 20px; line-height: 20px; content: "Miner\A"; display:block; color:  #358c33; }
+.TopStructuresBuilt::before {font-size: 20px; line-height: 20px; content: "Architect\A"; display:block; color:  #358c33; }
+.TopStructuresRepaired::before {font-size: 20px; line-height: 20px; content: "Handyman\A"; display:block; color:  #358c33; }
+.TopExplosivesThrown::before {font-size: 20px; line-height: 20px; content: "Bomb-tech\A"; display:block; color:  #358c33; }
+.TopWeaponsCrafted::before {font-size: 20px; line-height: 20px; content: "Gunsmith\A"; display:block; color:  #358c33; }
+.TopWoodGathered::before {font-size: 20px; line-height: 20px; content: "Lumberjack\A"; display:block; color:  #358c33; }
+.TopPVEKillDistance::before {font-size: 20px; line-height: 20px; content: "Deadshot\A"; display:block; color:  #358c33; }
+.TopPVPKillDistance::before {font-size: 20px; line-height: 20px; content: "Sniper\A"; display:block; color:  #358c33; }
 
 
 /*============End Stats*/

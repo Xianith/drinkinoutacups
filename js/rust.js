@@ -7,10 +7,34 @@ function collapseNavbar() {
     }
 }
 
+// function isScrolledIntoView(el) {
+//     var elemTop = el.getBoundingClientRect().top;
+//     var elemBottom = el.getBoundingClientRect().bottom;
+
+//     var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+//     return isVisible;
+// }
+
 var modalLock = false;
 
 $(window).scroll(function() {
 	if (modalLock == false) {collapseNavbar();}
+	// console.log(isScrolledIntoView(document.getElementById('start')));
+	// if (isScrolledIntoView(document.getElementById('start')))
+	// {
+	// 		  $("navbtnStart").addClass("nvarbar-selected");
+	//   // $(".navbar-fixed-top").removeClass("top-nav-collapse");
+	// }
+
+	var scrollPos = $(document).scrollTop() + 100;
+	$('nav a').each(function () {
+	    var currLink = $(this);
+	    var refElement = $(currLink.attr("href"));
+	    if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+	      $('nav a').removeClass("nvarbar-selected");
+	      currLink.addClass("nvarbar-selected");
+	    }
+	  });
 });
 $(document).ready(collapseNavbar);
 
