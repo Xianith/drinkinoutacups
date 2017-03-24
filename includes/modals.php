@@ -162,10 +162,38 @@
       <div class="slideTitle">Change Log</div>
 
       <div class="clog">
+         <i>3/24</i>
+      <p class="plus">Fixed Friends</p>
+      <p class="plus">Updated BetterChat</p>
+      <p class="plus">Updated BetterChatMute</p>
+      <p class="plus">Updated NoEscape</p>
+         <i>3/22</i>
+      <p class="plus">Brought on one final mod - Chromus</p>
+         <i>3/20</i>
+      <p class="minus">Fixed Custom Suplpy Signal to take proper resources</p>
+         <i>3/16</i>
+      <p class="plus">Finished balance pass. Notes:</p>
+      <ul>
+       <li>Halved drop rate of tech trash in rad towns</li>
+       <li>Lowered chance of C4 / rockets from spawning in any crate / supply drop</li>
+       <li>Limited deployables outside of Tool Cupboards (Campfires, Wood HE walls and all signgs can be placed outside of TC, everything else must be placed within TC range)</li>
+       <li>Entity wipe is now for EVERYTHING outside of Tool Cupboards. (Top tier and deployables included)</li>
+       <li>Re-worked massdrop (less garbage, mid-tier loot)</li>
+       <li>Re-worked helidrop (no attachments, top-tier loot)</li>
+       <li>Re-worked SupplySignal (between massdrpo and heliloot (no M249 / LR drops, metal chest / facemak drop)</li>
+       <li>Hazmat suits are now rare loot</li>
+       <li>Added Rope to chest loot</li>
+       <li>Limited TCs from being placed on foundations</li>
+      </ul>
+         <i>3/15</i>
+      <p class="plus">Added ObjectRemover plugin</p>
+      <p class="plus">First major balance pass</p>
+      <p class="plus">Modified Supply Signal drops</p>
+      <p class="minus">New Rule in play to limit 3 layers of HE walls</p>
         <i>3/9</i>
       <p class="plus">Created and finalized first in-house plugin CustomSignals</p>
       <p class="plus">Added PlayerRanks plugin</p>
-      <p class="plus">Added MagicCraf plugin</p>
+      <p class="plus">Added MagicCraft plugin</p>
       <p class="plus">Updated All Plugins... thanks patch day.</p>
 		    <i>3/7</i>
 			<p class="plus">Added PlaneCrash plugin</p>

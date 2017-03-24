@@ -18,12 +18,12 @@
 <script type="text/javascript" src="../js/rust.discord.min.js"></script>
 <script type="text/javascript">
   discordWidget.init({
-    serverId: '105404204360667136',
+    serverId: '284191274272292866',
     title: '',
     join: false,
     alphabetical: false,
     theme: 'none',
-    hideChannels: ['AFK', 'General', 'Room'],
+    hideChannels: [],
     showAllUsers: true,
     allUsersDefaultState: true
   });
@@ -90,7 +90,7 @@
 
   <p>You can donate for perks through the <b>/donate</b> store. Gold is used in the Gold shop for temp perks.</p>
 
-  <p>All donor perks can be purcahsed in game via the <b>/gold</b> shop. Dedicated Admins are always available to help through Discord.</p>
+  <p>All donor perks can be purcahsed in game via the <b>/gold</b> shop. Dedicated staff members are always available to help through Discord.</p>
 
   <div id="promo">
     <h3>Refer a friend and win a prize!</h3>
@@ -99,7 +99,7 @@
 
     <hr>
     <h4>New players rejoice!</h4>
-    <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b> as well as the following <a target="_blank" class="modalOpener" data-modal="starterBox">starter kit!</a></p>
+    <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b> <!-- as well as the following <a target="_blank" class="modalOpener" data-modal="starterBox">starter kit!</a></p> -->
     <div style="font-size:11px;line-height: 1px"><p>After 18 hours the damage scale goes from 0% to 25% after 24 it goes to 50% and after 48 it is back up to 100%</p>
     <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the protection to take effect.</p></div>
   </div>
@@ -118,12 +118,13 @@
         <a href="#autopurge" class="list-group-item">Purge <span class="badge">every 6 hours</span></a>
         <a href="#offlineraid" class="list-group-item">Offline Raid protection</a>
        <a href="#alphaloot" class="list-group-item">Better loot tables</a>
+       <li class="list-group-item">Wipes bi-weekly</li>
      </ul>
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
        <a href="#serverrewards" class="list-group-item">Caps to Gold<span class="badge">250k to 1</span></a>
-       <a href="#nodecay" class="list-group-item">Block Clear <span class="badge">every 6 hours</span></a>
+       <a href="#nodecay" class="list-group-item">Entity Clear <span class="badge">every 6 hours</span></a>
        <a href="#quicksmelt" class="list-group-item">Quick Smelt</a>
-       <li class="list-group-item">Wipes monthly</li>
+       <a href="" class="list-group-item">True Instant Craft</a>
      </ul>
    </div>
 
@@ -156,6 +157,10 @@
   	<div class="button-land" role="group" style="width: 25%; margin:auto">
   	  <a target="_blank" href="https://goo.gl/forms/fhRTxHvN7Vtt4re33" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feedback Survey</a>
   	</div> 
+
+    <div class="button-land" role="group" style="width: 25%; margin:auto">
+      <a target="_blank" href="https://goo.gl/forms/l7PQdJLR8WEP4c2B2" class="btn btn-default btn-lg btn-block" style="font-size: 12px">Feature / Bug Submission</a>
+    </div> 
 
 	<hr>
 	<h4>Staff On Duty</h4>
