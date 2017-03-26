@@ -86,6 +86,17 @@ h4 {
   margin: auto;
 }
 
+/*Discord start*/
+
+.role-admin {
+  color: #FFC003 !important;
+}
+
+.role-mod {
+  color: #7289DA !important;
+}
+
+/*End Discord*/
 
 
 /*==========Buttons*/

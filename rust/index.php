@@ -319,7 +319,7 @@
         <a target="_blank" href="http://oxidemod.org/plugins/secureadmin.1449/" class="list-group-item" name="RustedStore">SecureAdmin</a>
         <a target="_blank" href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
-        <a target="_blank" href="http://www.chaoscode.io/resources/skinbox.17/" class="list-group-item"><b>SkinBox</b></a>
+        <a target="_blank" href="http://www.chaoscode.io/resources/skinbox.17/" class="list-group-item list-group-item-warning"><b>SkinBox</b></a>
         <a target="_blank" href="http://oxidemod.org/plugins/sleeper-animal-protection.1959/" class="list-group-item">SleeperAnimalProtection</a>
         <div class="stackSize">
             <a href="" onclick="return false;" name="stacksize" class="infoShwBtn list-group-item list-group-item-info">StackSizeController<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>

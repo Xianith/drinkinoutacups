@@ -154,7 +154,7 @@
   <div class="modal-content" style="top: 40%">
 
     <div style="padding: 9px; line-height: 15px;">
-      <p>Thank you for deciding to tipping us! Just a heads up that this is a direct tip to the funding for our server.
+      <p>Thank you for deciding to tip us! Just a heads up that this is a direct tip to the host of our server.
       <b>This will not get you in-game perks</b>! Non the less we will still love you all the same.</p> 
 
       <p>For in game perks, log onto the server and do <b>/donate</b></p> 
@@ -171,6 +171,14 @@
       <div class="slideTitle">Change Log</div>
 
       <div class="clog">
+         <i>3/26</i>
+      <p class="plus">Updated FancyDrop</p>
+      <p class="plus">Updated ImageLibrary (dependency of UniversalUI)</p>
+      <p class="plus">Updated EnhancedHammer</p>
+      <p class="plus">Added MasterKey</p>
+      <p class="plus">Created and added second in-house plugin!</p>
+      <p>QuickMenu (replaced F6)</p>
+      <p class="plus">Minor text fixes on server / website</p>
          <i>3/24</i>
       <p class="plus">Fixed Friends</p>
       <p class="plus">Updated BetterChat</p>
