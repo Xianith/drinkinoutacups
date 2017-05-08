@@ -171,6 +171,24 @@
       <div class="slideTitle">Change Log</div>
 
       <div class="clog">
+         <i>4/23</i>
+      <p class="plus">Finished second balance pass:</p>
+      <ul>
+       <li>Significantly reduced levels of C4 dropping from massdrops</li>
+       <li>Halved daily kits</li>
+      </ul>
+      <p class="minus">Removed OfflineRaidProteciton</p>
+      <p class="minus">Removed RustedStore</p>
+         <i>4/21</i>
+      <p class="plus">Fixed commands</p>
+         <i>4/20</i>
+      <p class="plus">Completed merge to new host!</p>
+         <i>4/06</i>
+      <p class="plus">Reinstalled NoEscape</p>
+      <p class="plus">Reinstalled AntiOfflineRaid</p>
+      <p class="plus">Updated NightLanterns</p>
+      <p class="plus">Minor text changes.<b style="font-size:8px">shout out to chromus</b></p>
+      <p class="minus">Started second balance pass</p>
          <i>3/26</i>
       <p class="plus">Updated FancyDrop</p>
       <p class="plus">Updated ImageLibrary (dependency of UniversalUI)</p>
@@ -191,7 +209,7 @@
          <i>3/20</i>
       <p class="minus">Fixed Custom Suplpy Signal to take proper resources</p>
          <i>3/16</i>
-      <p class="plus">Finished balance pass. Notes:</p>
+      <p class="plus">Finished balance pass:</p>
       <ul>
        <li>Halved drop rate of tech trash in rad towns</li>
        <li>Lowered chance of C4 / rockets from spawning in any crate / supply drop</li>
@@ -206,7 +224,7 @@
       </ul>
          <i>3/15</i>
       <p class="plus">Added ObjectRemover plugin</p>
-      <p class="plus">First major balance pass</p>
+      <p class="plus">Started first major balance pass</p>
       <p class="plus">Modified Supply Signal drops</p>
       <p class="minus">New Rule in play to limit 3 layers of HE walls</p>
         <i>3/9</i>

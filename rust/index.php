@@ -71,12 +71,12 @@
 
 <div class="bgimg-1">
   <div class="caption">
-    <a href="http://doc-clan.com"><span class="border">DRINKIN OUTA CUPS</span></a>
+    <a class="page-scroll" href="#start"><span class="border logo">DRINKIN OUTA CUPS</span></a>
   </div>
 
-  <div class="scroll-indicator">
+  <!-- <div class="scroll-indicator">
   	<a href="#start" class="page-scroll" title="Scroll Down"><span class="glyphicon glyphicon-chevron-down"></span></a>
-  </div>
+  </div> -->
 </div>
 
 <a name="start"></a>
@@ -92,17 +92,17 @@
 
   <p>All donor perks can be purcahsed in game via the <b>/gold</b> shop. Dedicated staff members are always available to help through Discord.</p>
 
-  <div id="promo">
+<!--   <div id="promo">
     <h3>Refer a friend and win a prize!</h3>
     <p>Refer friends to join our server and we'll grant you a <b>full day of VIP</b> status per invite (up to 15 days).</p>
     <p>Get in touch with an active admin to get your VIP status and for additional details!</p>
 
     <hr>
     <h4>New players rejoice!</h4>
-    <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b> <!-- as well as the following <a target="_blank" class="modalOpener" data-modal="starterBox">starter kit!</a></p> -->
+    <p>When you connect and vote for the first time you get <b>48 hours of offline raid protection!</b> as well as the following <a target="_blank" class="modalOpener" data-modal="starterBox">starter kit!</a></p>
     <div style="font-size:11px;line-height: 1px"><p>After 18 hours the damage scale goes from 0% to 25% after 24 it goes to 50% and after 48 it is back up to 100%</p>
     <p>To avoid abuse there is a 30 minute wind up timer and all members of a clan must be offline for the protection to take effect.</p></div>
-  </div>
+  </div> -->
 
   <hr>
   <h4>Our awesome deets</h4>
@@ -116,9 +116,9 @@
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
         <a href="#moneytime" class="list-group-item">Caps per hour <span class="badge">30k</span></a>
         <a href="#autopurge" class="list-group-item">Purge <span class="badge">every 6 hours</span></a>
-        <a href="#offlineraid" class="list-group-item">Offline Raid protection</a>
+        <!-- <a href="#offlineraid" class="list-group-item">Offline Raid protection</a> -->
        <a href="#alphaloot" class="list-group-item">Better loot tables</a>
-       <li class="list-group-item">Wipes bi-weekly</li>
+       <li class="list-group-item">Wipes weekly</li>
      </ul>
      <ul class="list-group" style="text-align: left; max-width: 20em;min-width: 15em; float:left; margin-left: 2px">
        <a href="#serverrewards" class="list-group-item">Caps to Gold<span class="badge">250k to 1</span></a>
@@ -133,12 +133,11 @@
 
   <hr>
   <div class="button-land" role="group" style="width: 25%; margin:auto">
-    <a target="_blank" href="http://playrust.io/map/?198.23.148.162:28245" class="btn btn-map btn-lg btn-block">Map</a>
+    <a target="_blank" href="https://playrust.io/map/?144.217.251.35:28017" class="btn btn-map btn-lg btn-block">Map</a>
     <a target="_blank" href="https://discord.gg/TGJrJFN" class="btn btn-lg btn-discord btn-block">Discord</a>
     <a target="_blank" class="btn btn-lg btn-vote btn-block modalOpener" data-modal="voteBox">Vote</a>
-    <a target="_blank" class="btn btn-lg btn-donate btn-block modalOpener" data-modal="directdonateBox">Tip Jar</a>
-    <!-- <a target="_blank" href="https://clients.fragnet.net/grouppay.php?hash=41f21-5bdbf-36d46-52c2f-d7a5c-15d2d-cd" class="btn btn-lg btn-donate btn-block">Tip Jar</a> -->
-
+    <a href="https://rustydallas.net/testshop/packages.php?game=3&server=7#" target="_blank" class="btn btn-lg btn-donate btn-block">Donate</a>
+    <!-- <a target="_blank" class="btn btn-lg btn-donate btn-block modalOpener" data-modal="directdonateBox">Tip Jar</a> -->
   </div>  
 
 </div>
@@ -161,11 +160,13 @@
   	</div>
    </ul>
 
+   <div class="staffonduty">
 	<hr>
 	<h4>Staff On Duty</h4>
 	<div style="text-decoration: bold;font-family: 'logo'; letter-spacing: 5px">
 		<div class="discord-widget"></div>
-	</div>	
+	</div>
+	</div>
 
 	<hr>
 	<h4>Times are a changin!</h4>
@@ -211,17 +212,42 @@
 
       <div class="row">
         <div class="col-sm-4">
-        </div>
-        <div class="col-sm-4">
-          <a href="" onclick="return false;" class="infoShwBtn list-group-item list-group-item-success">CustomSignals<span class="glyphicon glyphicon-info-sign" style="float: right; top:10px;"></span></a>
+          <a href="" onclick="return false;" class="infoShwBtn list-group-item list-group-item-success">Barricades<span class="glyphicon glyphicon-sunglasses" name="Private Plugin" style="float: right; top:10px;"></span></a>
           <li class="list-group-item" style="display: none;">
-              Use resources to either call in a <b>attack helicopter</b> or a <b>low flying plane</b> (one you can shoot down) to your locaiton.
+              Legacy Barricades that can be picked up.
           </li>
         </div>
         <div class="col-sm-4">
-        
+          <a href="" onclick="return false;" class="infoShwBtn list-group-item list-group-item-success">CustomSignals<span class="glyphicon glyphicon-sunglasses" name="Private Plugin" style="float: right; top:10px;"></span></a>
+          <li class="list-group-item" style="display: none;">
+              Use resources to either call in a <b>attack helicopter</b> or a <b>low flying plane</b> (one you can shoot down) to your locaiton.
+
+              <br /><span class="glyphicon glyphicon-alert" style="height:10px;"></span><b> Next iteration will include a refined system of how to aquire signals.</b> Still using resources and will up the cost by at least double.
+          </li>
+        </div>
+        <div class="col-sm-4">
+          <a href="" onclick="return false;" class="infoShwBtn list-group-item">Super Furnace<span class="glyphicon glyphicon-alert" style="float: right; top:10px;"></span></a>
+          <li class="list-group-item" style="display: none;">
+              A risk reward system that will be highly saught after by clans and solo players alike.
+          </li>
         </div>
       </div>
+
+     <!--  <br />
+
+      <div class="row">
+        <div class="col-sm-4">
+        </div>
+        <div class="col-sm-4">
+          <a href="" onclick="return false;" class="infoShwBtn list-group-item">???<span class="glyphicon glyphicon-alert" style="float: right; top:10px;"></span></a>
+          <li class="list-group-item" style="display: none;">
+              Got an idea? Cash Xianith on steam how bo dah?
+          </li>
+        </div>
+        <div class="col-sm-4">
+          
+        </div>
+      </div> -->
 
       <hr>
 
@@ -234,11 +260,10 @@
             <a href="" onclick="return false;" name="alphaloot" class="infoShwBtn list-group-item list-group-item-info"><b>AlphaLoot</b><span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
             <li class="list-group-item" style="display: none;">
               <a class="btn btn-sm btn-default modalOpener pluginLink" data-modal="alphaLoot">Config File</a>
-              <a target="_blank" href="http://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
+              <a target="_blank" href="https://www.chaoscode.io/resources/alphaloot.13/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
             </li>
           </div>
           <a target="_blank" href="http://oxidemod.org/plugins/antilootdespawn.2066/" class="list-group-item">AntiLootDespawn</a>
-          <a target="_blank" href="http://oxidemod.org/plugins/antiofflineraid.1464/" name ="offlineraid" class="list-group-item list-group-item-warning">AntiOfflineRaid</a>
           <a target="_blank" href="http://oxidemod.org/plugins/autodoors.1924/" class="list-group-item">AutoDoors</a>
           <a target="_blank" href="http://oxidemod.org/plugins/automatic-build-grades.921/" class="list-group-item list-group-item-warning">AutoGrades</a>
           <a target="_blank" href="http://oxidemod.org/plugins/auto-purge.1566/" name="autopurge" class="list-group-item">AutoPurge</a>
@@ -248,7 +273,7 @@
           <a target="_blank" href="http://oxidemod.org/plugins/boobytraps.1549/" class="list-group-item list-group-item-warning">BoobyTraps</a>
           <a target="_blank" href="http://oxidemod.org/plugins/bounty.1649/" class="list-group-item">Bounty</a>
           <a target="_blank" href="http://oxidemod.org/plugins/build.715/" class="list-group-item">Build</a>
-          <a target="_blank" href="http://www.chaoscode.io/resources/clans-reborn.14/" class="list-group-item"><b>ClansReborn</b></a>
+          <a target="_blank" href="https://www.chaoscode.io/resources/clans-reborn.14/" class="list-group-item"><b>ClansReborn</b></a>
           <a target="_blank" href="http://oxidemod.org/plugins/copy-paste.716/" class="list-group-item">CopyPaste</a>
           <a target="_blank" href="http://oxidemod.org/plugins/player-corpse-duration-modifier.778/" class="list-group-item">CorpseDuration</a>
           <a target="_blank" href="http://oxidemod.org/plugins/crafting-controller.695/" class="list-group-item">CraftingController</a>
@@ -278,12 +303,10 @@
         <a target="_blank" href="http://oxidemod.org/plugins/gui-shop.1319/" class="list-group-item list-group-item-info">GUIShop<!-- <span class="glyphicon glyphicon-flash" style="float: right;"></span> --></a>
         <a target="_blank" href="http://oxidemod.org/plugins/helicontrol.1348/" class="list-group-item">HeliControl</a>
         <a target="_blank" href="http://oxidemod.org/plugins/heliride.2274/" class="list-group-item">HeliRide</a>
-        <a target="_blank" href="http://oxidemod.org/plugins/hotkeys.2135/" class="list-group-item">HotKeys</a>
         <a target="_blank" href="http://oxidemod.org/plugins/ignore-api.1054/" class="list-group-item">Ignore</a>
         <a target="_blank" href="http://oxidemod.org/plugins/infopanel.1356/" class="list-group-item list-group-item-info">InfoPanel</a>
         <a target="_blank" href="http://oxidemod.org/plugins/inventory-viewer.871/" class="list-group-item">InventoryViewer</a>
         <a target="_blank" href="http://oxidemod.org/plugins/item-skin-randomizer.1328/" class="list-group-item list-group-item-warning">ItemSkinRandomizer</a>
-        <a target="_blank" href="http://oxidemod.org/threads/protocol-kick-information.19972/" class="list-group-item">KickInfo</a>
         <a target="_blank" href="http://oxidemod.org/plugins/kill-feed.1433/" class="list-group-item">KillFeed</a>
         <a target="_blank" href="http://oxidemod.org/plugins/kits.668/" class="list-group-item list-group-item-warning">Kits</a>
         <a target="_blank" href="http://oxidemod.org/plugins/magic-craft.1347/" class="list-group-item">MagicCraft</a>
@@ -293,15 +316,16 @@
         <a target="_blank" href="http://oxidemod.org/plugins/nodecay.1160/" name="nodecay" class="list-group-item">NoDecay</a>
         <a target="_blank" href="http://oxidemod.org/plugins/noescape.1394/" class="list-group-item">NoEscape</a>
         <a target="_blank" href="http://oxidemod.org/plugins/n-teleportation.1832/" class="list-group-item list-group-item-warning">NTeleportation</a>
-        <a target="_blank" href="http://www.chaoscode.io/resources/plane-crash.16/" class="list-group-item"><b>PlaneCrash</b></a>
+        <a target="_blank" href="https://www.chaoscode.io/resources/plane-crash.16/" class="list-group-item"><b>PlaneCrash</b></a>
         <a target="_blank" href="http://oxidemod.org/plugins/player-challenges.1442/" class="list-group-item">PlayerChallenges</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/playerranks.2359/" class="list-group-item">PlayerRanks</a>
         </ul>
        </div>
        <div class="col-sm-4">
         <ul class="list-group">
-        <a target="_blank" href="http://oxidemod.org/plugins/playerranks.2359/" class="list-group-item">PlayerRanks</a>
         <a target="_blank" href="http://oxidemod.org/plugins/popup-notifications.1252/" class="list-group-item">PopupNotificaitons</a>
         <a target="_blank" href="http://oxidemod.org/plugins/protocol-kick-information.2041/" class="list-group-item">ProtocolKickInfo</a>
+        <a target="_blank" href="http://oxidemod.org/plugins/quick-menu.2419/" class="list-group-item list-group-item-success">QuickMenu</a>
         <div class="quickSmelt">
             <a href="" onclick="return false;" name="quicksmelt" class="infoShwBtn list-group-item list-group-item-info">QuickSmelt<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
               <li class="list-group-item" style="display: none;">
@@ -309,7 +333,7 @@
                 <a target="_blank" href="http://oxidemod.org/plugins/quicksmelt.1067/" class="btn btn-sm btn-default pluginLink">Plugin Link</a>
               </li>
         </div>
-        <a target="_blank" href="http://www.chaoscode.io/resources/random-spawnpoints.3/" class="list-group-item"><b>RandomSpawns</b></a>
+        <a target="_blank" href="https://www.chaoscode.io/resources/random-spawnpoints.3/" class="list-group-item"><b>RandomSpawns</b></a>
         <a target="_blank" href="http://oxidemod.org/plugins/removeaaa.1645/" class="list-group-item">RemoveAAA</a>
         <a target="_blank" href="http://oxidemod.org/plugins/r-remover-tool.651/" class="list-group-item list-group-item-info">RemoverTool</a>
         <a target="_blank" href="http://oxidemod.org/plugins/resetcodelocks.2348/" class="list-group-item">ResetCodeLocks</a>
@@ -319,7 +343,7 @@
         <a target="_blank" href="http://oxidemod.org/plugins/secureadmin.1449/" class="list-group-item" name="RustedStore">SecureAdmin</a>
         <a target="_blank" href="http://oxidemod.org/plugins/serverrewards.1751/" name="serverRewards" class="list-group-item list-group-item-info">ServerRewards</a>
         <a target="_blank" href="http://oxidemod.org/plugins/sign-artist.992/" class="list-group-item">SignArtist</a>
-        <a target="_blank" href="http://www.chaoscode.io/resources/skinbox.17/" class="list-group-item list-group-item-warning"><b>SkinBox</b></a>
+        <a target="_blank" href="https://www.chaoscode.io/resources/skinbox.17/" class="list-group-item list-group-item-warning"><b>SkinBox</b></a>
         <a target="_blank" href="http://oxidemod.org/plugins/sleeper-animal-protection.1959/" class="list-group-item">SleeperAnimalProtection</a>
         <div class="stackSize">
             <a href="" onclick="return false;" name="stacksize" class="infoShwBtn list-group-item list-group-item-info">StackSizeController<span class="glyphicon glyphicon-info-sign" style="float: right;"></span></a>
@@ -341,17 +365,17 @@
       </div>
 
       <div style="font-size: 10.5px; line-height: 3px">
-      	<p><span class="glyphicon glyphicon-info-sign"></span> indicates we provide additional information.</p>
-   <!--      <p><span class="glyphicon glyphicon-flash"></span> indicates that the plugin has a dependancy that isn't listed here.</p> -->
-        <p><b style="color: #3c763d">This color</b> indicates the plugin was developed specifically for this server.</p>
+        <p><b>Bold</b> indicates the plugin was purchased via donations.
+        <p><b style="color: #3c763d">This color</b> indicates the plugin was developed by our developers.</p>
         <p><b style="color: #8a6d3b">This color</b> indicates the plugin can be obtained via <a href="#RustedStore">donation</a> / <a href="#serverRewards">gold shop</a> / daily or has a limit.</p>
         <p><b style="color: #31708f">This color</b> indicates the plugin has been heavily modifed for this server.</p>
-        <p><b>Bold</b> indicates the plugin was purchased via donations.
+        <p><span class="glyphicon glyphicon-info-sign"></span> indicates we provide additional information.  
+        <span class="glyphicon glyphicon-alert"></span> indicates that the plugin is under development.  <span class="glyphicon glyphicon-sunglasses"></span> indicates that the plugin is private.</p>
       </div>
 
       <hr>
 
-      <p style="text-align:center;">Created by <a target="_blank" href="http://xianith.com">Xianith</a></p>
+      <p style="text-align:center;">Created by <a target="_blank" href="https://xianith.com">Xianith</a></p>
 
   </div>
 </div>

@@ -6,7 +6,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Vidya game group">
     <meta name="author" content="Ben">
-    <link rel="icon" href="img/favicon.ico">
+    <!-- <link rel="icon" href="img/favicon.ico"> -->
 
     <title>D O C</title>
 
