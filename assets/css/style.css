@@ -1,0 +1,290 @@
+@font-face {
+    font-family: logo;
+    src: url(../Capture_it.ttf);
+}
+
+a { text-decoration: none !important; }
+
+* {
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: Roboto,Arial,sans-serif;
+	/*font-weight: bold;*/
+}
+
+body {
+	background: #36393f !important;
+	color: #dcddde !important;
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	color: white;
+	background-color: #202225;
+	/*text-align: center;*/
+}
+
+/*.logo {
+  background: url('../img/collegesenior.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 35px;
+  font-size: 65px;
+  font-weight: 500;
+  text-shadow: 2px 2px black;
+  font-family: "logo";
+  border: 2px solid white;
+  border-radius: 5px;
+}*/
+
+.logo {
+	margin-top:-25px; 
+	margin-bottom:25px;
+	cursor: default !important;
+	pointer-events: none !important;
+	user-select: none !important;
+}
+
+.container {
+	width: 750px !important;
+}
+
+.jumbotron {
+  background: url('../img/collegesenior.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white !important;
+  font-size: 2em;
+  text-shadow: 2px 2px black;
+  font-family: "logo";
+  border: 3px solid #36393f;
+  cursor: default !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+.jumbotron > h1{
+	text-align: center;
+	margin: 0;
+	font-family: "logo";
+	padding:  25px;
+	font-size: 65px;
+	cursor: default !important;
+	pointer-events: none !important;
+	user-select: none !important;
+}
+
+.jumbotron .btn {
+  padding: 5px 30px;
+  font-size: 18px;
+}
+
+.user {
+	text-align: left;
+	position: fixed;
+	top: 50px;
+	right: 0px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 0px 0px 0px 5px;
+	color: black;
+	text-align: left;
+}
+
+.menu {
+	float: right;
+	margin-right: 10px;
+	text-decoration: none;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+
+.menu a {
+	text-decoration: none;
+	margin-right: 20px;
+	color: white;
+}
+
+.avatar {
+	position: fixed;
+	top: 5px;
+	right: 95px;
+	width: 40px;
+	border-radius: 150px;
+}
+
+.log-in {
+	position: fixed;
+	top: 5px;
+	right: 5px;
+	font-size: 14px;
+	color: white;
+	background-color: #7289da;
+	width: 80px;
+	height: 40px;
+	border-radius: 5px;
+	border: None;
+}
+
+.sneaky {
+	opacity: 0;
+}
+
+.sneaky:hover {
+	opacity: 1;
+}
+
+.log-in:hover {
+	cursor: pointer;
+}
+
+.response-block {
+	margin: 15px;
+	padding: .5em;
+	word-wrap: break-word;
+	width: 90%;
+	background-color: #2f3136;
+	border: 1px solid #202225;
+	color: #b9bbbe;
+}
+
+/*DOC Additions*/
+
+.audio-list {
+	max-height: 380px; 
+	overflow-x: hidden; 
+	overflow-y: scroll;
+	border-radius: .25rem 0 0 .25rem !important;
+}
+
+ol {
+	text-align: left;
+	width: 350px;
+}
+
+a:hover {   text-decoration: none; }
+
+.top-games .game
+{
+  width:75%;
+  float: left;
+  /*border: 1px solid #cacaca;*/
+  /*border-radius: 4px; */
+  margin-bottom: 2px;
+}
+
+.game img
+{
+  float: left;
+}
+
+.game-stats
+{
+  float: left;
+}
+
+.game img {
+    height: 25px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.title {
+  font-size: 26px;
+  color: #99AAB5;
+  font-family: "logo";
+}
+
+.discord .title {
+  font-size: 26px;
+  color: #7289da !important;
+  font-family: "logo";
+}
+
+.discord{
+  color: #7289da !important;
+  border-color: #7289da !important;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.game {
+    /*border: 1px solid #8080804d;*/
+    border-radius: 10px;
+    margin-right: 5px;
+    display: inline-block;
+    padding-right:5px;
+}
+
+#dev {
+    width: 100% !important;
+    background: #00800014;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.dev-btn {
+	right: 5px;
+  top: 5px;
+  position: absolute;
+}
+
+.communitylinks {
+  margin-top:25px;
+}
+
+/* Bootstrap changes */
+
+.list-group-item {
+    /*color: black !important;*/
+    background-color: #f1f3f4 !important;
+}
+
+/*Scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #198754;
+  border-radius: 10px;
+}
+
+/* Audio */
+
+audio {
+	margin-left: -25px;
+	/*width: 270px;*/
+  height: 35px;
+  /*border: 0;*/
+}
+
+audio::-webkit-media-controls-play-button{
+background-color: #198754 !important;
+border-radius: 150px;}
+
+/*audio::-webkit-media-controls-panel {
+	background-color: #36393f;
+	color: white;
+	border: ;
+}*/
+
+/*audio::-webkit-media-controls-panel, audio::-webkit-media-controls-mute-button, audio::-webkit-media-controls-timeline-container, audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display, audio::-webkit-media-controls-timeline, audio::-webkit-media-controls-volume-slider-container, audio::-webkit-media-controls-volume-slider, audio::-webkit-media-controls-seek-back-button, audio::-webkit-media-controls-seek-forward-button, audio::-webkit-media-controls-fullscreen-button, audio::-webkit-media-controls-rewind-button, audio::-webkit-media-controls-return-to-realtime-button, audio::-webkit-media-controls-toggle-closed-captions-button { border:  0; color: white; }*/
